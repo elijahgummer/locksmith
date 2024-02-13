@@ -52,7 +52,12 @@
     padding: 10px;
   }
 
-  
+  .contact-row .container .content i {
+    margin: 5px;
+    padding: 5px;
+  }
+
+
 
   /* NAVBAR */
   .navbar {
