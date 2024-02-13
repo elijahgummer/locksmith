@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #ffffff;
+  }
+  
+  /* Custom scroll bar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1e1e1e;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #2b2b2b;
+  }
+  
+  ::selection {
+    background: #375B57;
+  }
+
+  /* CONTACT ROW */
+  
+  .contact-row  
+
+  /* NAVBAR */
+  .navbar {
+    font-size: 1.7rem;
+    width: 100%;
+    height: auto;
+    padding: 25px 80px 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #FF6600;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+    align-items: center;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  
+  .navbar ul a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    transition: all 0.23s;
+    margin: -5px;
+  }
+  
+  .navbar ul li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .menu-list {
+    display: inline-flex;
+  }
+  
+  .menu-list li {
+    list-style: none;
+  }
+  
+  .menu-list li a:hover {
+    color: #147efb;
+  }
+  
+  .icon {
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .icon:hover {
+    color: #147efb;
+    transition: all 0.3s;
+  }
+  
+  .menu-list .cancel-btn {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+  }
+  
+  .logo {
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+  }
+  
+  @media (max-width: 868px) {
+    body.disabled {
+      overflow: hidden;
+    }
+  
+    .icon {
+      display: block;
+    }
+  
+    .icon.hide {
+      display: none;
+    }
+  
+    .navbar .menu-list {
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      max-width: 100%;
+      left: -100%;
+      top: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 40px 0;
+      text-align: center;
+      background: #ffffff;
+      transition: all 0.3s ease;
+    }
+  
+    .navbar.show .menu-list {
+      left: 0%;
+    }
+  
+    .navbar .menu-list li {
+      margin: 10px;
+    }
+  
+    .navbar .menu-list li a {
+      font-size: 23px;
+      margin-left: -100%;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+  
+    .navbar.show .menu-list li a {
+      margin-left: 0px;
+    }
+  }
+
+  /* HEADER */
+  
