@@ -78,13 +78,13 @@
   .navbar ul {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 4rem;
   }
   
   .navbar ul a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 600;
     transition: all 0.23s;
     margin: -5px;
@@ -104,7 +104,7 @@
   }
   
   .menu-list li a:hover {
-    color: #147efb;
+    color: #2d2e32;
   }
   
   .icon {
