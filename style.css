@@ -71,6 +71,8 @@ body {
   left: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
   align-items: center;
+  z-index: 2;
+  transition: all ease-in-out 0.3s;
 }
 
 .navbar ul {
@@ -217,7 +219,7 @@ body {
 #header .container .content {
   color: white;
   width: 46%;
-  margin: 120px 70px 30px 110px;
+  margin: 100px 70px 30px 110px;
 }
 
 #header .container .content h1 {
