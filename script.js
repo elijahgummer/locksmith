@@ -1,6 +1,7 @@
 const navbar = document.querySelector(".navbar");
     const menuBtn = document.querySelector(".menu-btn");
     const cancelBtn = document.querySelector(".cancel-btn");
+    const phoneBtn = document.querySelector(".phone-btn");
     menuBtn.onclick = ()=>{
       navbar.classList.add("show");
       menuBtn.classList.add("hide");
