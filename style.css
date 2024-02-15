@@ -225,17 +225,17 @@ body {
   font-weight: 800;
   padding: 5px;
   margin: 10px;
-  border-bottom: 2px solid white;
   position: relative;
 }
 
 #header .container .content h1::after {
   content: ""; /* Add empty content */
   position: absolute; /* Set position to absolute */
-  bottom: -2px; /* Position the pseudo-element at the bottom of the header */
-  left: 0; /* Position the pseudo-element at the left corner */
-  border-bottom: 20px solid white; /* Use border to create the triangle */
-  border-left: 20px solid transparent; /* Transparent border on the left */
+  bottom: -4px; /* Position the pseudo-element at the bottom of the header */
+  left: 8px; /* Position the pseudo-element at the left corner */
+  width: 50px; /* Width of the pseudo-element */
+  height: 2px; /* Height of the pseudo-element */
+  background-color: white; /* Color of the line */
 }
 
 
