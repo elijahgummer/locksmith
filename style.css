@@ -216,7 +216,7 @@ body {
 
 #header .container .content {
   color: white;
-  width: 70%;
+  width: 46%;
   margin: 110px;
 }
 
@@ -244,5 +244,5 @@ body {
   font-weight: 500;
   font-family: "Mulish", sans-serif;
   padding: 5px;
-  margin: 10px;
+  margin: 50px 10px 10px 10px;
 }
