@@ -213,7 +213,7 @@ body {
   justify-content: flex-start;
   background-color: #ff6600;
   width: 100%;
-  height: 800px;
+  height: 700px;
 }
 
 #header .container .content {
@@ -266,3 +266,8 @@ body {
   background-color: #ff6600;
 }
 
+#header .image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
