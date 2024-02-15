@@ -1,218 +1,248 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #ffffff;
-  }
-  
-  /* Custom scroll bar */
-  ::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #1e1e1e;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: #2b2b2b;
-  }
-  
-  ::selection {
-    background: #375B57;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+/* Custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2b2b2b;
+}
+
+::selection {
+  background: #375b57;
+}
+
+/* CONTACT ROW */
+
+.contact-row .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #ff6600;
+  width: 100%;
+  height: 60px;
+  z-index: 5;
+}
+
+.contact-row .container .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  position: fixed;
+}
+
+.contact-row .container .content h3 {
+  margin: 10px;
+  padding: 10px;
+}
+
+.contact-row .container .content i {
+  margin: 5px;
+  padding: 5px;
+}
+
+/* NAVBAR */
+.navbar {
+  font-size: 1.7rem;
+  width: 100%;
+  height: auto;
+  padding: 25px 80px 25px 50px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: #ff6600;
+  top: 60px;
+  left: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+}
+
+.navbar ul a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.23s;
+  margin: -5px;
+}
+
+.navbar ul li {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .menu-list {
+  display: inline-flex;
+}
+
+.menu-list li {
+  list-style: none;
+}
+
+.menu-list li a:hover {
+  color: #2d2e32;
+}
+
+.icon {
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+.icon:hover {
+  color: #2d2e32;
+  transition: all 0.3s;
+}
+
+.menu-list .cancel-btn {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 800;
+  margin-left: 70px;
+}
+
+@media (max-width: 868px) {
+  body.disabled {
+    overflow: hidden;
   }
 
-  /* CONTACT ROW */
+  .icon {
+    display: block;
+    font-size: 27px;
+  }
 
+  .icon.hide {
+    display: none;
+  }
 
-  .contact-row  .container {
+  .contact-row {
+    display: none;
+  }
+
+  .navbar {
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo-container {
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    background-color: #FF6600;
-    width: 100%;
-    height: 60px;
-    z-index: 5;
   }
 
-  .contact-row .container .content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #ffffff;
-    position: fixed;
-  }
-
-  .contact-row .container .content h3 {
-    margin: 10px;
-    padding: 10px;
-  }
-
-  .contact-row .container .content i {
-    margin: 5px;
-    padding: 5px;
-  }
-
-
-
-  /* NAVBAR */
-  .navbar {
-    font-size: 1.7rem;
-    width: 100%;
-    height: auto;
-    padding: 25px 80px 25px 50px;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    background-color: #FF6600;
-    top: 60px;
-    left: 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
-    align-items: center;
-  }
-  
-  .navbar ul {
-    display: flex;
-    list-style: none;
-    gap: 4rem;
-  }
-  
-  .navbar ul a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
-    transition: all 0.23s;
-    margin: -5px;
-  }
-  
-  .navbar ul li {
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbar .menu-list {
-    display: inline-flex;
-  }
-  
-  .menu-list li {
-    list-style: none;
-  }
-  
-  .menu-list li a:hover {
-    color: #2d2e32;
-  }
-  
-  .icon {
-    color: #ffffff;
-    font-size: 24px;
-    cursor: pointer;
-    display: none;
-  }
-  
-  .icon:hover {
-    color: #2d2e32;
-    transition: all 0.3s;
-  }
-  
-  .menu-list .cancel-btn {
-    position: absolute;
-    right: 30px;
-    top: 20px;
-  }
-  
   .logo {
-    color: #ffffff;
-    font-size: 20px;
-    cursor: pointer;
-    font-weight: 800;
-  }
-  
-  @media (max-width: 868px) {
-    body.disabled {
-      overflow: hidden;
-    }
-  
-    .icon {
-      display: block;
-      font-size: 27px;
-    }
-  
-    .icon.hide {
-      display: none;
-    }
-
-    .contact-row {
-      display: none;
-    }
-
-    .navbar {
-      top: 0;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .logo-container {
-      width: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .logo {
-      width: 100%;
-    }
-
-
-  
-    .navbar .menu-list {
-      position: fixed;
-      height: 100vh;
-      width: 100%;
-      max-width: 100%;
-      left: -100%;
-      top: 0px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      padding: 40px 0;
-      text-align: center;
-      background: #FF6600;
-      transition: all 0.3s ease;
-    }
-  
-    .navbar.show .menu-list {
-      left: 0%;
-    }
-  
-    .navbar .menu-list li {
-      margin: 10px;
-    }
-  
-    .navbar .menu-list li a {
-      font-size: 23px;
-      margin-left: -100%;
-      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    }
-  
-    .navbar.show .menu-list li a {
-      margin-left: 0px;
-    }
-  }
-
-  /* HEADER */
-  
-  #header .container {
-    background-color: #FF6600;
     width: 100%;
-    height: 600px;
   }
 
-  
+  .navbar .menu-list {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    left: -100%;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+    text-align: center;
+    background: #ff6600;
+    transition: all 0.3s ease;
+  }
+
+  .navbar.show .menu-list {
+    left: 0%;
+  }
+
+  .navbar .menu-list li {
+    margin: 10px;
+  }
+
+  .navbar .menu-list li a {
+    font-size: 23px;
+    margin-left: -100%;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .navbar.show .menu-list li a {
+    margin-left: 0px;
+  }
+}
+
+/* HEADER */
+
+#header .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ff6600;
+  width: 100%;
+  height: 600px;
+}
+
+#header .container .content {
+  color: white;
+  width: 70%;
+  margin: 110px;
+}
+
+#header .container .content h1 {
+  font-size: 48px;
+  font-weight: 800;
+  padding: 5px;
+  margin: 10px;
+  border-bottom: 2px solid white;
+  position: relative;
+}
+
+#header .container .content h1::after {
+  content: ""; /* Add empty content */
+  position: absolute; /* Set position to absolute */
+  bottom: -2px; /* Position the pseudo-element at the bottom of the header */
+  left: 0; /* Position the pseudo-element at the left corner */
+  border-bottom: 20px solid white; /* Use border to create the triangle */
+  border-left: 20px solid transparent; /* Transparent border on the left */
+}
+
+
+#header .container .content p {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Mulish", sans-serif;
+  padding: 5px;
+  margin: 10px;
+}
