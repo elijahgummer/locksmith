@@ -140,6 +140,7 @@
   
     .icon {
       display: block;
+      font-size: 28px;
     }
   
     .icon.hide {
