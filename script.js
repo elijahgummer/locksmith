@@ -18,7 +18,7 @@ window.onscroll = function () {
   scrollTimeout = setTimeout(function () {
     var currentScrollPos = window.pageYOffset;
     var contactRow = document.querySelector(".contact-row");
-    if (currentScrollPos < 100) {
+    if (currentScrollPos < 50) {
       contactRow.style.display = "block";
       navbar.style.top = "60px";
     } else {
