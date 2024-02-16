@@ -209,6 +209,8 @@ body {
 
 #header .container {
   display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #ff6600;
   width: 100%;
   height: 700px;
@@ -217,7 +219,7 @@ body {
 #header .container .content {
   color: white;
   width: 46%;
-  margin: 300px 0 30px 110px;
+  margin: 200px 0 30px 110px;
   z-index: 2;
   position:static;
 }
@@ -275,4 +277,6 @@ body {
 
 #header .container .image-container img {
   width: 800px;
+  z-index: 1;
+  position: relative;
 }
