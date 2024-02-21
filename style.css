@@ -319,5 +319,17 @@ body {
   flex-direction: column;
   width: 25%;
   background-color: aqua;
+  padding: 10px;
+}
+
+#services .bubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  background-color: #EFEFEF;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
 }
 
