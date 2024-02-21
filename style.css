@@ -300,6 +300,9 @@ body {
 #services h1 {
   padding: 20px;
   font-weight: 800;
+  font-size: 30px;
+  color: #313131;
+  border-bottom: 2px solid #ff6600;
 }
 
 #services .advantage-container {
