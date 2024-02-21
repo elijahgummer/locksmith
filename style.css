@@ -284,6 +284,17 @@ body {
 /* SERVICES */
 
 #services .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 600px;
 }
+
+#services .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
