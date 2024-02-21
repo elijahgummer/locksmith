@@ -317,7 +317,8 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 25%;
+  text-align: center;
+  width: 30%;
   background-color: aqua;
   padding: 10px;
 }
@@ -338,6 +339,20 @@ body {
   color: #ff6600;
 }
 
+#services h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #333333;
+  margin: 5px;
+  width: 100%;
+}
 
+#services p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #333333;
+  margin: 10px;
+  width: 100%;
+}
 
 
