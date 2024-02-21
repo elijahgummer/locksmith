@@ -312,3 +312,12 @@ body {
   margin-top: 50px;
 }
 
+#services .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+  background-color: aqua;
+}
+
