@@ -402,7 +402,7 @@ html {
   background-color: #ff6600;
   border: 1.5px solid #ff6600;
   padding: 15px;
-  margin: 50px 10px 10px 10px;
+  margin: 15px;
   width: 200px;
   color: white;
   border-radius: 50px;
@@ -420,7 +420,7 @@ html {
     padding: 20px;
     font-weight: 800;
     font-size: 30px;
-    margin: 20px;
+    margin: 5px;
     color: #313131;
 }
 
@@ -441,7 +441,7 @@ html {
     padding: 20px;
     font-weight: 500;
     font-size: 17px;
-    margin: 20px;
+    margin: 5px;
     color: #313131;
     font-family: 'Mulish', sans-serif;
 }
