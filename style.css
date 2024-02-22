@@ -379,6 +379,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #ff6600;
 }
 
 #about .content {
