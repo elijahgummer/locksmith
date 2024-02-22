@@ -387,3 +387,7 @@ html {
   justify-content: space-between;
   flex-direction: row;
 }
+
+#about .content-container {
+  
+}
