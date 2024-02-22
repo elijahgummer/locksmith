@@ -437,4 +437,13 @@ html {
   right: 0.9;
 }
 
+#about p {
+    padding: 20px;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 20px;
+    color: #313131;
+    font-family: 'Mulish', sans-serif;
+}
+
 
