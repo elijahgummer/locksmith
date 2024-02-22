@@ -378,5 +378,12 @@ html {
 #about .container {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+#about .content {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
+  flex-direction: row;
 }
