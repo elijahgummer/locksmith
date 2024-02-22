@@ -387,13 +387,15 @@ html {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+
 }
 
 #about .content-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+  margin-left: 40px;
 }
 
 #about button {
