@@ -255,7 +255,7 @@ html {
   margin: 50px 10px 10px 10px;
 }
 
- button {
+#header button {
   background-color: white;
   border: 1.5px solid white;
   padding: 15px;
@@ -267,7 +267,7 @@ html {
   transition: all ease-in-out 0.5s;
 }
 
-button:hover {
+#header button:hover {
   color: #ffffff;
   background-color: #ff6600;
 }
