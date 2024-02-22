@@ -414,3 +414,24 @@ html {
   color: black;
   background-color: white;
 }
+
+#about h1 {
+    position: relative; /* Essential for positioning the pseudo-element */
+    padding: 20px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #313131;
+}
+
+#about h1::after {
+  content: "";
+  display: block;
+  margin: 0 auto; /* Centers the pseudo-element */
+  width: 30%; /* Half the width of the h1 element */
+  height: 2px; /* The thickness of your bottom border */
+  background-color: #ff6600; /* The color of your bottom border */
+  position: absolute;
+  bottom: 0; /* Aligns the pseudo-element to the bottom of the h1 */
+  left: 0.9;
+  right: 0.9;
+}
