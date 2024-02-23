@@ -450,6 +450,7 @@ html {
 /* OFFERS/SERVICES */
 
 #offers .container {
+  display: flex;
   height: 600px;
   width: 100%;
 }
