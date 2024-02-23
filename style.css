@@ -447,4 +447,9 @@ html {
     width: 70%;
 }
 
+/* OFFERS/SERVICES */
 
+#offers .container {
+  height: 600px;
+  width: 100%;
+}
