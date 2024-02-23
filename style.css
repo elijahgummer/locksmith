@@ -459,4 +459,6 @@ html {
 
 #offers .content {
   display: flex;
+  align-items: center;
+  
 }
