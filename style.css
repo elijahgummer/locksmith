@@ -473,12 +473,7 @@ html {
 
 #offers .card {
   display: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 312px;
-  height: 312px;
-  background-color: #E9E9E9;
+  overflow: hidden;
 }
 
 #offers .card-content {
@@ -497,7 +492,7 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 #offers .card:hover .box {
@@ -507,6 +502,7 @@ html {
 #offers img {
   width: 312px;
   height: 312px;
+  z-index: 2;
 }
 
 #offers h3 {
