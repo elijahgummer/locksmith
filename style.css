@@ -483,7 +483,7 @@ html {
   position: relative;
 }
 
-#about h1 {
+#offers h1 {
   position: relative; /* Essential for positioning the pseudo-element */
   padding: 20px;
   font-weight: 800;
