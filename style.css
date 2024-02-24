@@ -465,7 +465,7 @@ html {
 }
 
 #offers .cards-container {
-  
+  display: flex;
 }
 
 #offers h1 {
