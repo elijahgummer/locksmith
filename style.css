@@ -475,6 +475,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 312px;
+  height: 312px;
 }
 
 #offers .card-content {
@@ -496,15 +498,13 @@ html {
   font-weight: 800;
 }
 
-#offers .card-content {
+
+
+#offers span {
   background-color: #E3E3E2;
   width: 100%;
   height: 100%;
-  display: none;
-}
-
-#offers .card-content:hover {
-  display: block;
+  transition: all ease-in-out 0.5s;
 }
 
 
