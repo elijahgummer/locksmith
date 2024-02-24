@@ -504,7 +504,7 @@ html {
   padding: 0 40px;
   text-align: center;
   font-size: 14px;
-  transition: height 0.5s;
+  transition: all 0.5s;
   z-index: -1;
 }
 
@@ -514,8 +514,9 @@ html {
 
 #offers h3 {
   color: #ff6600;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 800;
+
 }
 
 #offers .container {
