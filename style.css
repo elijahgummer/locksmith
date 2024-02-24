@@ -503,6 +503,10 @@ html {
   display: none;
 }
 
+#offers .card-content:hover {
+  display: block;
+}
+
 
 #offers h1 {
     position: relative; /* Essential for positioning the pseudo-element */
