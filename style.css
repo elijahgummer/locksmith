@@ -501,7 +501,7 @@ height: 2px; /* The thickness of your bottom border */
 background-color: #ff6600; /* The color of your bottom border */
 position: absolute;
 bottom: 0; /* Aligns the pseudo-element to the bottom of the h1 */
-left: 0.9;
+left: 0;
 right: 0;
 }
 
