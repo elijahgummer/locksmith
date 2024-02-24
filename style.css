@@ -472,71 +472,71 @@ html {
 }
 
 #offers .card {
-  display: relative;
+  position: relative;
   overflow: hidden;
 }
 
 #offers .card-content {
+  position: relative;
+}
+
+#offers .card-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+
+#offers .layer {
+  width: 100%;
+  height: 0;
+  background: #E9E9E9;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
 }
 
-#offers .box {
-  display: none;
-  background-color: #e9e9e9aa;
-  width: 100%;
+#offers .card:hover .layer {
   height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  transition: opacity ease-in-out 0.5s;
-}
-
-#offers .card:hover .box {
-  display: block;
-}
-
-#offers img {
-  width: 100%;
-  height: auto;
-  z-index: 1;
 }
 
 #offers h3 {
-  position: absolute;
   color: #ff6600;
   font-size: 25px;
   font-weight: 800;
-  z-index: 4;
 }
 
-#offers .image-container {
-  position: relative;
+#offers .container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 600px;
+  width: 100%;
 }
 
-#offers h1 {
-    position: relative; /* Essential for positioning the pseudo-element */
-    padding: 20px;
-    font-weight: 800;
-    font-size: 30px;
-    margin: 5px;
-    color: #313131;
+#offers .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 90px;
 }
 
-#offers h1::after {
-  content: "";
-  display: block;
-  margin: 0 auto; /* Centers the pseudo-element */
-  width: 20%; /* Half the width of the h1 element */
-  height: 2px; /* The thickness of your bottom border */
-  background-color: #ff6600; /* The color of your bottom border */
-  position: absolute;
-  bottom: 0; /* Aligns the pseudo-element to the bottom of the h1 */
-  left: 0;
-  right: 0;
+#offers .cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #offers button {
