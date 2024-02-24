@@ -490,7 +490,7 @@ html {
 
 #offers .layer {
   width: 100%;
-  height: 0;
+  height: 100%;
   background: #E9E9E9;
   border-radius: 10px;
   position: absolute;
@@ -505,10 +505,11 @@ html {
   text-align: center;
   font-size: 14px;
   transition: height 0.5s;
+  z-index: -1;
 }
 
 #offers .card:hover .layer {
-  height: 100%;
+  z-index: 1;
 }
 
 #offers h3 {
