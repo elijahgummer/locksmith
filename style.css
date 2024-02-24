@@ -464,6 +464,10 @@ html {
   margin-top: 90px;
 }
 
+#offers .cards-container {
+  
+}
+
 #offers h1 {
     position: relative; /* Essential for positioning the pseudo-element */
     padding: 20px;
