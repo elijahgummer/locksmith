@@ -516,7 +516,7 @@ html {
   color: #ff6600;
   font-size: 23px;
   font-weight: 800;
-
+  transition: font-size 0.3s ease; /* Add transition effect */
 }
 
 #offers .container {
