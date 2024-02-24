@@ -494,3 +494,20 @@ html {
   right: 0;
 }
 
+#offers button {
+  background-color: #ff6600;
+  border: 1.5px solid #ff6600;
+  padding: 15px;
+  margin: 15px;
+  width: 200px;
+  color: white;
+  border-radius: 50px;
+  font-size: 17px;
+  transition: all ease-in-out 0.5s;
+}
+
+#offers button:hover {
+  color: black;
+  background-color: white;
+}
+
