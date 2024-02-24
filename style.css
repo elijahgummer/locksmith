@@ -496,6 +496,10 @@ html {
   font-weight: 800;
 }
 
+#offers .card-content {
+  background-color: #E3E3E2;
+}
+
 
 #offers h1 {
     position: relative; /* Essential for positioning the pseudo-element */
