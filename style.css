@@ -497,10 +497,10 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 1;
 }
 
-#offers .box,h3:hover {
+#offers .card:hover .box {
   display: block;
 }
 
