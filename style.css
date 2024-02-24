@@ -471,6 +471,12 @@ html {
   align-items: center;
 }
 
+#offers .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 #offers h1 {
     position: relative; /* Essential for positioning the pseudo-element */
