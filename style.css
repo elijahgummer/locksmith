@@ -477,6 +477,7 @@ html {
   justify-content: center;
   width: 312px;
   height: 312px;
+  background-color: #E9E9E9;
 }
 
 #offers .card-content {
@@ -484,6 +485,12 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+#offers .box {
+  background-color: #E9E9E9;
+  width: 100%;
+  height: 100%;
 }
 
 #offers img {
