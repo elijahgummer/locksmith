@@ -477,6 +477,7 @@ html {
   overflow: hidden;
   width: 312px;
   height: 312px;
+  margin: 5px;
 }
 
 #offers .card-content {
