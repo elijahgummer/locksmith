@@ -505,11 +505,11 @@ html {
   text-align: center;
   font-size: 14px;
   transition: all 0.5s;
-  z-index: -1;
+  opacity: 0;
 }
 
 #offers .card:hover .layer {
-  z-index: 1;
+  opacity: 0.9;
 }
 
 #offers h3 {
@@ -517,6 +517,10 @@ html {
   font-size: 23px;
   font-weight: 800;
   transition: font-size 0.3s ease; /* Add transition effect */
+}
+
+#offers .card-content:hover h3 {
+  font-size: 25px;
 }
 
 #offers .container {
