@@ -459,8 +459,9 @@ html {
 
 #offers .content {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
   margin-top: 90px;
 }
 
@@ -469,6 +470,7 @@ html {
   justify-content: space-between;
   align-items: center;
 }
+
 
 #offers h1 {
     position: relative; /* Essential for positioning the pseudo-element */
