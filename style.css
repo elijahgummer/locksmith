@@ -472,6 +472,7 @@ html {
 }
 
 #offers .card {
+  display: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -497,7 +498,7 @@ html {
   z-index: 2;
 }
 
-#offers .box:hover {
+#offers .box,h3:hover {
   display: block;
 }
 
