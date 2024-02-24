@@ -492,8 +492,9 @@ html {
   height: 312px;
 }
 
-#offers .h3 {
+#offers h3 {
   position: absolute;
+
 }
 
 
