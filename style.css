@@ -487,6 +487,11 @@ html {
 #offers span {
 }
 
+#offers image {
+  width: 300px;
+  height: 300px;
+}
+
 #offers .h3 {
   position: absolute;
 }
