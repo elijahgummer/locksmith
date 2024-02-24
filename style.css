@@ -466,6 +466,7 @@ html {
 
 #offers .cards-container {
   display: flex;
+  justify-content: space-between;
 }
 
 #offers h1 {
