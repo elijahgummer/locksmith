@@ -474,6 +474,8 @@ html {
 #offers .card {
   position: relative;
   overflow: hidden;
+  width: 312px;
+  height: 312px;
 }
 
 #offers .card-content {
