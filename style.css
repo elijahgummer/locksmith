@@ -481,6 +481,14 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+#offers span {
+}
+
+#offers .h3 {
+  position: absolute;
 }
 
 
