@@ -493,6 +493,7 @@ html {
   height: 312px;
   transition: all ease-in-out 0.5s;
   position: absolute;
+  display: none;
   z-index: 2;
 }
 
