@@ -517,12 +517,9 @@ html {
   z-index: 4;
 }
 
-
-
 #offers .image-container {
-  display: block;
+  position: relative;
 }
-
 
 #offers h1 {
     position: relative; /* Essential for positioning the pseudo-element */
