@@ -488,10 +488,12 @@ html {
 }
 
 #offers .box {
-  background-color: #E9E9E9;
-  width: 100%;
-  height: 100%;
+  background-color: #e9e9e9aa;
+  width: 312px;
+  height: 312px;
   transition: all ease-in-out 0.5s;
+  position: absolute;
+  z-index: 2;
 }
 
 #offers img {
@@ -504,6 +506,7 @@ html {
   color: #ff6600;
   font-size: 25px;
   font-weight: 800;
+  z-index: 4;
 }
 
 
