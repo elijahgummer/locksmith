@@ -593,7 +593,17 @@ right: 0;
 /* QUOTE */
 
 #quote .container {
+  position: relative;
   height: auto;
   width: 100%;
   margin-top: 520px;
+}
+
+#quote .container::before {
+  
+}
+
+#quote img {
+  width: 100%; 
+  height: auto;
 }
