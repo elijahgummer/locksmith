@@ -594,8 +594,6 @@ right: 0;
 
 #quote .container {
   height: auto;
-  max-width: 100%;
-  background-image: url("images/quote.png");
-  background-size: 100% auto;
+  width: 100%;
   margin-top: 520px;
 }
