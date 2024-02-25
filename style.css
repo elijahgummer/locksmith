@@ -613,4 +613,5 @@ right: 0;
 #quote img {
   width: 100%; 
   height: auto;
+  position: relative;
 }
