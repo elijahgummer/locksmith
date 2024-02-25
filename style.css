@@ -590,3 +590,9 @@ right: 0;
 
 /* QUOTE */
 
+#quote .container {
+  height: 800px;
+  width: 100%;
+  background-image: url("images/quote.png");
+  background-size: cover;
+}
