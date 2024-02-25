@@ -600,7 +600,12 @@ right: 0;
 }
 
 #quote .container::before {
-  
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 #quote img {
