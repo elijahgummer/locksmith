@@ -7,6 +7,7 @@
 
 body {
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 html {
@@ -592,8 +593,8 @@ right: 0;
 /* QUOTE */
 
 #quote .container {
-  height: 700px;
-  width: 100%;
+  height: auto;
+  max-width: 100%;
   background-image: url("images/quote.png");
   background-size: cover;
   margin-top: 520px;
