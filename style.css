@@ -455,6 +455,7 @@ html {
   align-items: flex-start;
   height: 600px;
   width: 100%;
+  margin: 50px;
 }
 
 #offers .content {
@@ -591,7 +592,7 @@ right: 0;
 /* QUOTE */
 
 #quote .container {
-  height: 800px;
+  height: auto;
   width: 100%;
   background-image: url("images/quote.png");
   background-size: cover;
