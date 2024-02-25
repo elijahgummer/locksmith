@@ -29,5 +29,5 @@ window.onscroll = function () {
 };
 
 //---------------------QUOTE REVIEWS --------------------// 
-const reviewContent = document.querySelector("#reviews");
-
+const reviewCard = document.querySelector("#reviews");
+const reviewContent = []
