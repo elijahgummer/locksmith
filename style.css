@@ -596,6 +596,6 @@ right: 0;
   height: auto;
   max-width: 100%;
   background-image: url("images/quote.png");
-  background-size: cover;
+  background-size: 100% auto;
   margin-top: 520px;
 }
