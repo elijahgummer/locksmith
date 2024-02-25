@@ -27,3 +27,7 @@ window.onscroll = function () {
     }
   }, 100); // Adjust debounce delay as needed (in milliseconds)
 };
+
+//---------------------QUOTE REVIEWS --------------------// 
+const reviewContent = document.querySelector("#reviews");
+
