@@ -9,7 +9,13 @@ form {
 }
 
 form input {
-  margin: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border: none;
+}
+
+form input::before {
+    content: "";
 }
 
 form button {
