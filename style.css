@@ -597,14 +597,9 @@ right: 0;
   position: relative;
   height: auto;
   width: 100%;
-}
-
-#quote .content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-top: 520px;
 }
+
 
 #quote .container::before {
   content: "";
@@ -621,12 +616,14 @@ right: 0;
   position: absolute;
   width: 100%; 
   height: auto;
-  
   z-index: -1;
 }
 
 
 #quote .slider-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
   position: absolute;
   overflow: hidden;
   z-index: 1;
