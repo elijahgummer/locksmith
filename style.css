@@ -620,44 +620,6 @@ right: 0;
 }
 
 
-#quote .slider-container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  position: absolute;
-  overflow: hidden;
-  z-index: 1;
-}
-
-#quote .slider {
-  display: flex;
-  transition: transform 0.5s ease
-}
-
-#quote .slide {
-  flex: 0 0 100%; 
-}
-
-.prev-btn, .next-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #333;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  z-index: 2;
-}
-
-.prev-btn {
-  left: 10px;
-}
-
-.next-btn {
-  right: 10px;
-}
-
 /* ----------------- FORM IN THE QUOTE AREA -------------- */
 .form {
   display: flex;
