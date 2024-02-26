@@ -628,4 +628,25 @@ right: 0;
   transition: transform 0.5s ease
 }
 
+#quote .slide {
+  flex: 0 0 100%; 
+}
 
+.prev-btn, .next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
