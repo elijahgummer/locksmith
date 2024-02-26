@@ -10,15 +10,11 @@ form {
 }
 
 form input {
-    margin: 10px;
-    border: none;
-    border-bottom: 2px solid #2e2e2e; /* Add a 2px solid border on the bottom */
-    width: 80%;
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid #2e2e2e; /* Add a 2px solid border on the bottom */
+  width: 80%;
 }
-
-
-
-
 
 form button {
   background-color: #ff6600;
@@ -34,4 +30,14 @@ form button {
 form button:hover {
   color: black;
   background-color: white;
+}
+
+form h1 {
+  position: relative; /* Essential for positioning the pseudo-element */
+  padding: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 5px;
+  color: #313131;
+  font-family: 'Poppins', sans-serif;
 }
