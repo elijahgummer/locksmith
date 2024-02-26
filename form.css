@@ -6,17 +6,19 @@ form {
   width: 400px;
   height: 600px;
   background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Simple box shadow */
 }
 
 form input {
     margin: 10px;
-    text-decoration: none;
     border: none;
+    border-bottom: 2px solid #2e2e2e; /* Add a 2px solid border on the bottom */
+    width: 80%;
 }
 
-form input::before {
-    content: "";
-}
+
+
+
 
 form button {
   background-color: #ff6600;
