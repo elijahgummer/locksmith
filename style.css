@@ -600,8 +600,16 @@ right: 0;
   margin-top: 520px;
 }
 
+#qoute .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
 
-#quote .container::before {
+
+#quote .content::before {
   content: "";
   position: absolute;
   top: 0;
