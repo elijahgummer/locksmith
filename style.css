@@ -611,15 +611,16 @@ right: 0;
 }
 
 #quote img {
+  position: absolute;
   width: 100%; 
   height: auto;
-  position: relative;
+  
   z-index: -1;
 }
 
 
 #quote .slider-container {
-  position: relative;
+  position: absolute;
   overflow: hidden;
   z-index: 1;
 }
