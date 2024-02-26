@@ -592,10 +592,17 @@ right: 0;
 
 /* QUOTE */
 
+
 #quote .container {
   position: relative;
   height: auto;
   width: 100%;
+}
+
+#quote .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 520px;
 }
 
