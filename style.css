@@ -595,7 +595,7 @@ right: 0;
 
 #quote .container {
   position: relative;
-  height: auto;
+  height: 100%;
   width: 100%;
   margin-top: 520px;
   height: auto;
@@ -605,9 +605,9 @@ right: 0;
 #qoute .content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
-  height: auto;
+  height: 100%;
   z-index: 5;
 }
 
@@ -615,7 +615,7 @@ right: 0;
 #quote img {
   position: absolute;
   width: 100%; 
-  height: auto;
+  height: 100%;
   z-index: -1;
 }
 
@@ -663,6 +663,7 @@ right: 0;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  padding: 100px;
 }
 
 form {
