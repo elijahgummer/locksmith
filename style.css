@@ -622,3 +622,10 @@ right: 0;
   position: relative;
   overflow: hidden;
 }
+
+#quote .slider {
+  display: flex;
+  transition: transform 0.5s ease
+}
+
+
