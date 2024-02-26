@@ -665,3 +665,52 @@ right: 0;
 .next-btn {
   right: 10px;
 }
+
+/* ----------------- FORM IN THE QUOTE AREA -------------- */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 500px;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Simple box shadow */
+}
+
+form input {
+  margin: 20px;
+  border: none;
+  border-bottom: 1px solid #2e2e2e; /* Add a 2px solid border on the bottom */
+  width: 80%;
+  font-size: 17px;
+}
+
+form button {
+  background-color: #ff6600;
+  border: 1.5px solid #ff6600;
+  padding: 15px;
+  margin: 50px;
+  width: 200px;
+  color: white;
+  font-size: 17px;
+  transition: all ease-in-out 0.5s;
+  width: 70%;
+}
+
+form button:hover {
+  color: black;
+  background-color: white;
+}
+
+form h1 {
+  position: relative; /* Essential for positioning the pseudo-element */
+  padding: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 5px;
+  color: #313131;
+  font-family: 'Poppins', sans-serif;
+}
+  
