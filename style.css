@@ -659,6 +659,11 @@ right: 0;
 }
 
 /* ----------------- FORM IN THE QUOTE AREA -------------- */
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
 
 form {
   display: flex;
