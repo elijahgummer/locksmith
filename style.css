@@ -621,6 +621,7 @@ right: 0;
 #quote .slider-container {
   position: relative;
   overflow: hidden;
+  z-index: 4;
 }
 
 #quote .slider {
