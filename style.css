@@ -616,7 +616,7 @@ right: 0;
   position: absolute;
   width: 100%; 
   height: 100%;
-  z-index: -1;
+  z-index: -2;
 }
 
 
@@ -677,7 +677,7 @@ form h1 {
 /* SLIDER REIEWS IN THE QUOTE AREA */
 
 .wrapper {
-  position: absolute;
+  position: relative;
   width: 80vw;
   max-width: 41em;
   min-height: 25em;
@@ -690,6 +690,7 @@ form h1 {
   justify-content: center;
   flex-direction: column;
   transition: transform 0.5s ease-in-out; /* Add transition for container */
+  z-index: 10;
 }
 
 .wrapper i {
@@ -788,3 +789,5 @@ button#prev {
     opacity: 1;
   }
 }
+
+
