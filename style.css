@@ -709,3 +709,20 @@ form h1 {
   padding: 1.8em 1.2em;
   transition: bottom 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Add transitions */
 }
+
+.wrapper button {
+  font-size: 1.8em;
+  height: 2.2em;
+  width: 2.2em;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  border: none;
+  color: #dedede;
+  background: none;
+  cursor: pointer;
+  opacity: 0;
+  border-radius: 50%;
+  transition: all ease-in-out 0.5s, display 0s 0.5s; /* Delaying display transition */
+}
