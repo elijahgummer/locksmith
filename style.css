@@ -752,3 +752,8 @@ button#prev {
   line-height: 2em;
   letter-spacing: 0.05em;
 }
+
+.slide-up {
+  opacity: 1;
+  animation: moveup 0.9s linear forwards;
+}
