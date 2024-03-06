@@ -734,3 +734,8 @@ button#next {
 button#prev {
   left: -2.5em;
 }
+
+.wrapper:hover button#prev {
+  transform: translateX(1.2em);
+  opacity: 1;
+}
