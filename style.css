@@ -691,3 +691,8 @@ form h1 {
   flex-direction: column;
   transition: transform 0.5s ease-in-out; /* Add transition for container */
 }
+
+.wrapper i {
+  font-size: 25px;
+  color: #ffffff;
+}
