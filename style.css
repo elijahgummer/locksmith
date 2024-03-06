@@ -673,3 +673,21 @@ form h1 {
   color: #313131;
   font-family: 'Poppins', sans-serif;
 }
+
+/* SLIDER REIEWS IN THE QUOTE AREA */
+
+.wrapper {
+  position: absolute;
+  width: 80vw;
+  max-width: 41em;
+  min-height: 25em;
+  border-radius: 0.6em;
+  transform: translate(-50%, 100%);
+  left: 50%;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out; /* Add transition for container */
+}
