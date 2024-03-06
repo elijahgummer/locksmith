@@ -726,3 +726,11 @@ form h1 {
   border-radius: 50%;
   transition: all ease-in-out 0.5s, display 0s 0.5s; /* Delaying display transition */
 }
+
+button#next {
+  right: -2.5em;
+}
+
+button#prev {
+  left: -2.5em;
+}
