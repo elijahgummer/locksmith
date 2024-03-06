@@ -771,3 +771,20 @@ button#prev {
   font-weight: 400;
   text-align: center;
 }
+
+@media screen and (max-width: 650px) {
+  .wrapper {
+    font-size: 14px;
+  }
+}
+
+@keyframes moveup {
+  0% {
+    margin-top: 20%;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 10%;
+    opacity: 1;
+  }
+}
