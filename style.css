@@ -744,3 +744,11 @@ button#prev {
   transform: translateX(-1.2em);
   opacity: 1;
 }
+
+.testimonial-container p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.9em;
+  line-height: 2em;
+  letter-spacing: 0.05em;
+}
