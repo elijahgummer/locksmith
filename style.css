@@ -757,3 +757,9 @@ button#prev {
   opacity: 1;
   animation: moveup 0.9s linear forwards;
 }
+
+.testimonial-container h3 {
+  color: #2d3d67;
+  font-size: 1em;
+  text-align: center;
+}
