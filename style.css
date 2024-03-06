@@ -763,3 +763,11 @@ button#prev {
   font-size: 1em;
   text-align: center;
 }
+
+.testimonial-container h6 {
+  color: #bcc4da;
+  font-size: 0.9em;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  text-align: center;
+}
