@@ -680,8 +680,6 @@ form h1 {
   position: relative;
   max-width: 30em;
   border-radius: 0.6em;
-  left: 50%;
-  top: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
