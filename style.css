@@ -678,9 +678,7 @@ form h1 {
 
 .wrapper {
   position: relative;
-  width: 80vw;
   max-width: 41em;
-  min-height: 25em;
   border-radius: 0.6em;
   transform: translate(-50%, 100%);
   left: 50%;
