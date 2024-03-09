@@ -786,10 +786,14 @@ button#prev {
 }
 
 /* Footer */
+footer {
+  background-color: ;
+}
 footer .container .content {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-
 }
+
+
