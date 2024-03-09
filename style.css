@@ -786,7 +786,7 @@ button#prev {
 }
 
 /* Footer */
-footer {
+footer .container .content {
   display: flex;
   align-items: center;
   justify-content: space-between;
