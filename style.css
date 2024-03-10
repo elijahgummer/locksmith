@@ -788,6 +788,7 @@ button#prev {
 /* Footer */
 footer {
   background-color: #333333;
+  padding: 30px;
 }
 footer .container .content {
   display: flex;
