@@ -797,4 +797,8 @@ footer .container .content {
   flex-direction: row;
 }
 
+footer .social-icons {
+  display: flex;
+}
+
 
