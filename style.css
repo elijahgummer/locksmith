@@ -831,4 +831,6 @@ footer .info-box i {
   margin: 10px;
 }
 
-
+footer .info-box h3 {
+  font-weight: 800;
+}
