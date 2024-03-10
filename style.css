@@ -28,7 +28,8 @@ html {
 }
 
 ::selection {
-  background: #375b57;
+  background: #FF6600;
+  color: #ffffff;
 }
 
 /* CONTACT ROW */
