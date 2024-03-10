@@ -797,6 +797,14 @@ footer .container .content {
   flex-direction: row;
 }
 
+footer .logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  flex-direction: column;
+}
+
 footer .social-icons {
   display: flex;
   align-items: center;
