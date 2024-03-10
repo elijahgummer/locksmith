@@ -825,4 +825,10 @@ footer .info-box {
   flex-direction: column;
 }
 
+footer .info-box i {
+  font-size: 24px;
+  color: #FF6600;
+  margin: 10px;
+}
+
 
