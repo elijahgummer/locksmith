@@ -837,3 +837,7 @@ footer .info-box h3 {
   font-size: 18px;
   margin: 5px;
 }
+
+footer .info-box p {
+  color: #ffffff;
+}
