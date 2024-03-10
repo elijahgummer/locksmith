@@ -805,6 +805,7 @@ footer .social-icons {
 }
 
 footer .social-icons i {
+  font-size: 20px;
   color: #FF6600;
   margin: 5px;
 }
