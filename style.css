@@ -791,6 +791,9 @@ footer {
   padding: 50px;
 }
 
+footer .container {
+  display: flex;
+}
 footer .container .content {
   display: flex;
   align-items: center;
