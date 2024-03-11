@@ -866,3 +866,15 @@ footer .info-box p {
 
 /* responsivness area */
 
+@media (max-width: 860px) {
+  body.disabled {
+    overflow: hidden;
+  }
+
+  .contact-row {
+    display: none;
+  }
+
+  
+
+}
