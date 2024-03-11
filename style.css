@@ -883,13 +883,14 @@ footer .info-box p {
   }
 
   /* HEADER RESPONSIVNESS */
-  
+
   #header .image-container {
     display: none;
   }
 
   #header .container .content{
     margin: 0;
+    width: 90%;
   }
 
   /* SERVICES RESPONSIVNESS */
