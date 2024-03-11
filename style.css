@@ -941,4 +941,17 @@ footer .info-box p {
     width: 100%;
   }
 
+  #about .container {
+    width: 100%;
+  }
+
+  #about .content-container {
+    align-items: center;
+    width: 100%;
+  }
+
+  #about  .content-container p {
+    width: 90%;
+  }
+
 }
