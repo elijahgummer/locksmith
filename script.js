@@ -11,26 +11,26 @@ cancelBtn.onclick = () => {
   menuBtn.classList.remove("hide");
 };
 
-// let scrollTimeout;
+let scrollTimeout;
 
-// window.onscroll = function () {
-//   clearTimeout(scrollTimeout);
-//   scrollTimeout = setTimeout(function () {
-//     var currentScrollPos = window.pageYOffset;
-//     var contactRow = document.querySelector(".contact-row");
-//     var screenWidth = window.innerWidth; // Get the screen width
+window.onscroll = function () {
+  clearTimeout(scrollTimeout);
+  scrollTimeout = setTimeout(function () {
+    var currentScrollPos = window.pageYOffset;
+    var contactRow = document.querySelector(".contact-row");
+    var screenWidth = window.innerWidth; // Get the screen width
 
-//     if (screenWidth > 860) { // Only execute this code if screen width is greater than 860px
-//       if (currentScrollPos < 50) {
-//         contactRow.style.display = "block";
-//         navbar.style.top = "60px";
-//       } else {
-//         contactRow.style.display = "none";
-//         navbar.style.top = "0";
-//       }
-//     }
-//   });
-// };
+    if (screenWidth > 860) { // Only execute this code if screen width is greater than 860px
+      if (currentScrollPos < 50) {
+        contactRow.style.display = "block";
+        navbar.style.top = "60px";
+      } else {
+        contactRow.style.display = "none";
+        navbar.style.top = "0";
+      }
+    }
+  }, 10);
+};
 
 //---------------------QUOTE REVIEWS --------------------// 
 const slider = document.querySelector('.slider');
