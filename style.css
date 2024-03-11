@@ -869,6 +869,7 @@ footer .info-box p {
 @media (max-width: 860px) {
   body.disabled {
     overflow-y: auto; /* Change overflow to auto to allow vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
   }
 
   .contact-row {
