@@ -697,8 +697,8 @@ form h1 {
 
 .testimonial-container {
   display: flex;
-  align-items: center;
-  justify-self: center;
+  align-items: flex-start;
+  justify-self: flex-start;
   flex-direction: column;
   width: 100%;
   height: 100%;
