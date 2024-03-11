@@ -877,10 +877,13 @@ footer .info-box p {
     width: 100%;
   }
 
+
   .contact-row {
     display: none;
   }
 
+  /* HEADER RESPONSIVNESS */
+  
   #header .image-container {
     display: none;
   }
