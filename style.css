@@ -875,6 +875,8 @@ footer .info-box p {
     display: none;
   }
 
-  
+  #header .image-container {
+    display: none;
+  }
 
 }
