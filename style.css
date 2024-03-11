@@ -394,6 +394,14 @@ html {
 
 }
 
+#about .image-container {
+  width: 50%;
+}
+
+#about .image-container img {
+  width: 100%;
+}
+
 #about .content-container {
   display: flex;
   align-items: flex-start;
@@ -924,5 +932,5 @@ footer .info-box p {
   #about .container .content {
     flex-direction: column;
   }
-  
+
 }
