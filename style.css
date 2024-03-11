@@ -929,9 +929,6 @@ footer .info-box p {
   }
 
   /* ABOUT RESPONSIVNESS */
-  #about .container {
-
-  }
   
   #about .container .content {
     flex-direction: column;
