@@ -891,9 +891,16 @@ footer .info-box p {
 
   /* SERVICES RESPONSIVNESS */
 
-  #services .content {
+  #services .container .content {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+
+  #services h1 {
+    width: 100%;
+    padding: 0;
   }
 
   #services .content .advantage-container {
@@ -902,6 +909,8 @@ footer .info-box p {
     width: 100%;
   }
 
-  
+  #services .content .advantage-container .card {
+    width: 100%;
+  }
 
 }
