@@ -683,8 +683,8 @@ form h1 {
   max-width: 30em;
   border-radius: 0.6em;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-direction: column;
   transition: transform 0.5s ease-in-out; /* Add transition for container */
   z-index: 10;
