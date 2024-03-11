@@ -872,6 +872,11 @@ footer .info-box p {
     overflow-x: hidden; /* Hide horizontal scrollbar */
   }
 
+  .navbar {
+    padding: 25px 30px 25px 20px;
+    width: 100%;
+  }
+
   .contact-row {
     display: none;
   }
@@ -879,5 +884,24 @@ footer .info-box p {
   #header .image-container {
     display: none;
   }
+
+  #header .container .content{
+    margin: 0;
+  }
+
+  /* SERVICES RESPONSIVNESS */
+
+  #services .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #services .content .advantage-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  
 
 }
