@@ -395,7 +395,7 @@ html {
 }
 
 #about .image-container {
-  width: 50%;
+  width: 60%;
 }
 
 #about .image-container img {
@@ -408,6 +408,7 @@ html {
   justify-content: center;
   flex-direction: column;
   margin-left: 20px;
+  width: 50%;
 }
 
 #about button {
