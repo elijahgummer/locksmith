@@ -638,7 +638,7 @@ right: 0;
 .form {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 100px;
 }
 
