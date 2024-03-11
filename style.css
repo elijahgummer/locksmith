@@ -948,10 +948,23 @@ footer .info-box p {
   #about .content-container {
     align-items: center;
     width: 100%;
+    margin: 0;
   }
 
   #about  .content-container p {
     width: 90%;
   }
 
+  /* offers responsivness */
+
+  #offers .container {
+    margin: 0;
+  }
+  #offers .container .content {
+    margin: 0;
+  }
+
+  #offers .container .content .cards-container {
+    margin: 0;
+  }
 }
