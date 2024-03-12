@@ -19,9 +19,9 @@ document.addEventListener("DOMContentLoaded", function() {
   // Testimonial Data
   const testimonials = [
     {
-      name: "Eva Sawyer",
+      name: "Eva S.",
       testimonial:
-        "Neque volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur",
+        "We've been working with locksmith for the past 15 years. The staff are always prompt and courteous and the work is always dont to our complete satisfaction.",
     },
     {
       name: "Katey Topaz",
