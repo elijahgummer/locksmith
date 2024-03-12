@@ -994,6 +994,11 @@ footer .info-box p {
   }
 
   /* FOOTERS RESPONSIVNESS */
+  footer {
+    padding: 25px;
+  }
+
+
 
   footer .container .content {
     flex-direction: column;
