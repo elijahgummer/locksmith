@@ -926,7 +926,12 @@ footer .info-box p {
   #header .container .content{
     margin: 0;
     width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
+
 
   /* SERVICES RESPONSIVNESS */
 
