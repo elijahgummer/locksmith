@@ -963,5 +963,9 @@ footer .info-box p {
 
   #offers .container .content .cards-container {
     margin: 0;
+    align-items: center;
+    justify-content: center;
   }
+
+
 }
