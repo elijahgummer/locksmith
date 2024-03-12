@@ -766,8 +766,9 @@ button#prev {
 .testimonial-container p {
   color: #ffffff;
   text-align: center;
-  font-size: 0.9em;
+  font-size: 1.2em;
   line-height: 2em;
+  font-weight: 500;
   letter-spacing: 0.05em;
 }
 
