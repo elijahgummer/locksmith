@@ -956,7 +956,13 @@ footer .info-box p {
 
   #offers .container {
     margin: 0;
+    margin-bottom: 30px;
   }
+
+  #offers button {
+    margin: 40px;
+  }
+
   #offers .container .content {
     margin: 0;
   }
@@ -968,5 +974,7 @@ footer .info-box p {
   }
 
   /* FOOTERS RESPONSIVNESS */
-
+  footer .container .content {
+    flex-direction: column;
+  }
 }
