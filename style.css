@@ -978,7 +978,11 @@ footer .info-box p {
     flex-direction: column;
   }
 
+  footer img {
+    margin: 15px;
+  }
+
   footer .container .content .logo-container .social-icons i {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
