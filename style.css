@@ -908,6 +908,10 @@ footer .info-box p {
     width: 100%;
   }
 
+  .navbar .logo {
+    margin: 0;
+  }
+
 
   .contact-row {
     display: none;
