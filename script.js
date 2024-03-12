@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
     {
       name: "Jae R.",
       testimonial:
-        "",
+        "As an office manager, I can wholeheartedly recommend locksmith. I have more than 100 locks in my office, and locksmith has never ever let me down.",
     },
     {
       name: "Nicola Blakely",
