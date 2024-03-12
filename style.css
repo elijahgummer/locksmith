@@ -998,10 +998,9 @@ footer .info-box p {
     padding: 25px;
   }
 
-
-
   footer .container .content {
     flex-direction: column;
+    width: 100%;
   }
 
   footer img {
