@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     {
       name: "Jae Robin",
-      job: "UI Designer, Affinity Agency",
       testimonial:
         "Orci nulla pellentesque dignissim enim sit amet venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis",
     },
