@@ -86,14 +86,6 @@
   }
   
   /* SLIDER REIEWS IN THE QUOTE AREA */
-  
-  #quote .reviews {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  
   .wrapper {
     position: relative;
     width: 80%;
