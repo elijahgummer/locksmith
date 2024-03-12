@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "I recommend locksmith to all the new tenants in my building. The service is fast, reliable and well priced. No complaints, ever.",
     },
     {
-      name: "Jae Robin",
+      name: "Jae R.",
       testimonial:
         "Orci nulla pellentesque dignissim enim sit amet venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis",
     },
