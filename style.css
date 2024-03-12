@@ -820,6 +820,7 @@ footer .container {
 }
 
 footer button {
+  display: none;
   color: #ffffff;
   background-color: #333333;
   border: 1px solid#ffffff;
