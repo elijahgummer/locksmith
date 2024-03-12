@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     {
       name: "Katey T.",
       testimonial:
-        "",
+        "I recommend locksmith to all the new tenants in my building. The service is fast, reliable and well priced. No complaints, ever.",
     },
     {
       name: "Jae Robin",
