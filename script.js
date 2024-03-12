@@ -32,34 +32,6 @@ window.onscroll = function () {
   }, 10);
 };
 
-//---------------------QUOTE REVIEWS --------------------// 
-const slider = document.querySelector('.slider');
-const prevBtn = document.querySelector('.prev-btn');
-const nextBtn = document.querySelector('.next-btn');
-const slideWidth = slider.clientWidth;
-let slideIndex = 0;
-
-nextBtn.addEventListener('click', () => {
-  slideIndex++;
-  if (slideIndex >= slider.children.length) {
-    slideIndex = 0;
-  }
-  updateSlider();
-});
-
-prevBtn.addEventListener('click', () => {
-  slideIndex--;
-  if (slideIndex < 0) {
-    slideIndex = slider.children.length - 1;
-  }
-  updateSlider();
-});
-
-function updateSlider() {
-  slider.style.transform = `translateX(-${slideIndex * slideWidth}px)`;
-}
-
-
 // js code for the review slider in the quote area
 
 document.addEventListener("DOMContentLoaded", function() {
