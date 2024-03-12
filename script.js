@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "We've been working with locksmith for the past 15 years. The staff are always prompt and courteous and the work is always dont to our complete satisfaction.",
     },
     {
-      name: "Katey Topaz",
+      name: "Katey T.",
       testimonial:
         "Elementum tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse in est ante in nibh mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet nulla",
     },
