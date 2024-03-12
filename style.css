@@ -977,4 +977,8 @@ footer .info-box p {
   footer .container .content {
     flex-direction: column;
   }
+
+  footer .container .content .logo-container .social-icons i {
+    font-size: 20px;
+  }
 }
