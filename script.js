@@ -64,7 +64,6 @@ document.addEventListener("DOMContentLoaded", function() {
     testimonialContainer.innerHTML = `
       <p>${testimonials[i].testimonial}</p>
       <h3>${testimonials[i].name}</h3>
-      <h6>${testimonials[i].job}</h6>
     `;
   };
 
