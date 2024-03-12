@@ -828,6 +828,12 @@ footer button {
   padding: 15px;
   font-size: 18px;
   width: 250px;
+  transition: all ease-in-out 0.5s;
+}
+
+footer button:hover {
+  color: #000;
+  background-color: #dedede;
 }
 
 
