@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
     {
       name: "Jae R.",
       testimonial:
-        "Orci nulla pellentesque dignissim enim sit amet venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis",
+        "",
     },
     {
       name: "Nicola Blakely",
