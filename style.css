@@ -823,8 +823,12 @@ footer button {
   color: #ffffff;
   background-color: #333333;
   border: 1px solid#ffffff;
-  border-radius: 17px;
+  border-radius: 28px;
+  padding: 15px;
+  font-size: 18px;
+  width: 250px;
 }
+
 
 footer .container .content {
   display: flex;
