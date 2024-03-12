@@ -822,7 +822,8 @@ footer .container {
 footer button {
   color: #ffffff;
   background-color: #333333;
-  border: 1px solid#ffffff ;
+  border: 1px solid#ffffff;
+  border-radius: 17px;
 }
 
 footer .container .content {
