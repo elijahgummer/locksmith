@@ -982,6 +982,10 @@ footer .info-box p {
     margin: 15px;
   }
 
+  footer button {
+    display: block;
+  }
+
   footer .container .content .logo-container .social-icons i {
     font-size: 30px;
   }
