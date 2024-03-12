@@ -567,7 +567,7 @@ right: 0;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 600px;
+  height: auto;
   width: 100%;
 }
 
