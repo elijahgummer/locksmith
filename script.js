@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     {
       name: "Katey Topaz",
-      job: "Developer, TechCrew",
       testimonial:
         "Elementum tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse in est ante in nibh mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet nulla",
     },
