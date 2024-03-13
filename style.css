@@ -693,8 +693,9 @@ form h1 {
 
 #quote .reviews {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  flex-direction: column;
   width: 50%;
 }
 
