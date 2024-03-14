@@ -1021,7 +1021,13 @@ footer .info-box p {
     width: 80%;
   }
 
-  #quote .
+  button#next {
+    right: -1.5em;
+  }
+  
+  button#prev {
+    left: -1.5em;
+  }
 
   /* FOOTERS RESPONSIVNESS */
   footer {
