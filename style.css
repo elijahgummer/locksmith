@@ -1005,8 +1005,9 @@ footer .info-box p {
     justify-content: center;
   }
 
-  #quote form {
+  #quote .form {
     margin: 0;
+    padding: 0;
   }
 
   /* FOOTERS RESPONSIVNESS */
