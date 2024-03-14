@@ -982,6 +982,10 @@ footer .info-box p {
     width: 90%;
   }
 
+  #about button {
+    margin-bottom: 40px;
+  }
+
   /* offers responsivness */
 
   #offers .container {
