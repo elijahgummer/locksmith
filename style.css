@@ -1023,6 +1023,10 @@ footer .info-box p {
     height: 20%;
     opacity: 1;
   }
+
+  #offers h1 {
+    margin-bottom: 20px;
+  }
   
   /* QUOTE RESPONSIVNESS */
 
