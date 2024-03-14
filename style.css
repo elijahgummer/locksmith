@@ -708,7 +708,7 @@ form h1 {
   justify-content: center;
   flex-direction: column;
   transition: transform 0.5s ease-in-out; /* Add transition for container */
-  z-index: 10;
+  z-index: 3;
 }
 
 .reviews i {
