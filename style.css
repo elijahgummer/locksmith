@@ -1011,6 +1011,14 @@ footer .info-box p {
     width: 100%;
   }
 
+  #quote .reviews {
+    width: 100%;
+  }
+
+  #quote .wrapper {
+    width: 100%;
+  }
+
   #quote .form {
     padding: 0;
     width: 80%;
