@@ -1008,6 +1008,12 @@ footer .info-box p {
     width: 100%;
   }
 
+  #offers .container .content .cards-container .card {
+    width: 90%;
+    height: auto;
+    margin: 20px 0;
+  }
+
   #offers img {
     width: 90%;
   }
