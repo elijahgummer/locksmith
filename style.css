@@ -466,7 +466,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 600px;
+  height: auto;
   width: 100%;
   margin: 50px;
 }
