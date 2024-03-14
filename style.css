@@ -998,15 +998,22 @@ footer .info-box p {
   }
 
   /* QUOTE RESPONSIVNESS */
+
+  #quote .container  {
+    width: 100%;
+  }
+
   #quote .container .content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
 
   #quote .form {
     padding: 0;
+    width: 80%;
   }
 
   /* FOOTERS RESPONSIVNESS */
