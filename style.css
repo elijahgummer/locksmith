@@ -1009,7 +1009,7 @@ footer .info-box p {
 
   #offers .layer {
     width: 100%;
-    height: 100%;
+    height: 20%;
     background: #E9E9E9;
     position: absolute;
     left: 0;
@@ -1023,14 +1023,9 @@ footer .info-box p {
     text-align: center;
     font-size: 14px;
     transition: all 0.5s;
-    opacity: 0;
+    opacity: 1;
   }
   
-  #offers .card:hover .layer {
-    opacity: 0.9;
-  }
-  
-
   /* QUOTE RESPONSIVNESS */
 
   #quote .container  {
