@@ -1004,7 +1004,11 @@ footer .info-box p {
     align-items: center;
     justify-content: center;
   }
-  
+
+  #quote form {
+    margin: 0;
+  }
+
   /* FOOTERS RESPONSIVNESS */
   footer {
     padding: 25px;
