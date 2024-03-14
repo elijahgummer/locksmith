@@ -1005,24 +1005,16 @@ footer .info-box p {
     margin: 0;
     align-items: center;
     justify-content: center;
+    width: 100%;
+  }
+
+  #offers img {
+    width: 90%;
   }
 
   #offers .layer {
     width: 100%;
     height: 20%;
-    background: #E9E9E9;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 40px;
-    text-align: center;
-    font-size: 14px;
-    transition: all 0.5s;
     opacity: 1;
   }
   
