@@ -1064,6 +1064,10 @@ footer .info-box p {
     left: -1.5em;
   }
 
+  #quote .form {
+    margin: 40px;
+  }
+
   /* FOOTERS RESPONSIVNESS */
   footer {
     padding: 25px;
