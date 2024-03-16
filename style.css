@@ -1073,6 +1073,10 @@ footer .info-box p {
     margin: 10px;
   }
 
+  #quote .form h1 {
+    font-size: 25px;
+  }
+
   /* FOOTERS RESPONSIVNESS */
   footer {
     padding: 25px;
