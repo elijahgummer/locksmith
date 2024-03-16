@@ -984,6 +984,12 @@ footer .info-box p {
     margin-bottom: 40px;
   }
 
+  #about h1::after {
+    bottom: 0; /* Aligns the pseudo-element to the bottom of the h1 */
+    left: 0;
+    right: 0;
+  }
+
   /* offers responsivness */
 
   #offers .container {
