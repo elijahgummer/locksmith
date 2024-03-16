@@ -1071,6 +1071,9 @@ footer .info-box p {
     transform: translateX(-0em);
   }
 
+  .wrapper:hover button#next {
+    transform: translateX(-0em);
+  }
   #quote .form button {
     padding: 10px;
     margin: 30px 0;
