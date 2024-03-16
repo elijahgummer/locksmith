@@ -892,6 +892,7 @@ footer .info-box p {
 /* responsivness area */
 
 @media (max-width: 860px) {
+
   body.disabled {
     overflow-y: auto; /* Change overflow to auto to allow vertical scrolling */
     overflow-x: hidden; /* Hide horizontal scrollbar */
