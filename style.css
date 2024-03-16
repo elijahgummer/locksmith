@@ -1077,6 +1077,12 @@ footer .info-box p {
     font-size: 25px;
   }
 
+  #quote .form form {
+    height: 90%;
+  }
+
+
+
   /* FOOTERS RESPONSIVNESS */
   footer {
     padding: 25px;
