@@ -1047,7 +1047,6 @@ footer .info-box p {
     margin-top: 40px;
   }
 
-
   #quote .form {
     padding: 0;
     width: 90%;
@@ -1059,11 +1058,17 @@ footer .info-box p {
   }
 
   button#next {
-    right: -1.5em;
+    right: -1.4em;
+    opacity: 1;
   }
   
   button#prev {
-    left: -1.5em;
+    left: -1.4em;
+    opacity: 1;
+  }
+
+  .wrapper:hover button#prev {
+    transform: translateX(-0em);
   }
 
   #quote .form button {
