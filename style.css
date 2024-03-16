@@ -1052,6 +1052,10 @@ footer .info-box p {
     width: 80%;
   }
 
+  #quote .testimonial-container {
+    padding: 0;
+  }
+
   button#next {
     right: -1.5em;
   }
