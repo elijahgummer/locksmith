@@ -18,6 +18,8 @@ Design inspired by duda
 ## Screenshots of the Project 📸
 ---
 Home Page 🏡
+<img width="100%" alt="locksmith" src="https://github.com/elijahgummer/locksmith/assets/96103526/4dffefa4-3d6b-4e51-ad1c-51c533bafcd3">
+
 
 ---
 ## Usage 🚀
