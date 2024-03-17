@@ -1,5 +1,4 @@
-
- ---![logo](https://github.com/elijahgummer/locksmith/assets/96103526/fa594822-9c4d-4f6c-966a-9267e4142117)
+                                ![logo](https://github.com/elijahgummer/locksmith/assets/96103526/fa594822-9c4d-4f6c-966a-9267e4142117)
 
 ---
 
