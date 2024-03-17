@@ -1,4 +1,6 @@
-# Locksmith Website Project 🗝️
+
+ ---![logo](https://github.com/elijahgummer/locksmith/assets/96103526/fa594822-9c4d-4f6c-966a-9267e4142117)
+
 ---
 
 The Locksmith Website Project is a demonstration of a fictional locksmith services website. It showcases our company's range of locksmith services through a user-friendly interface.
