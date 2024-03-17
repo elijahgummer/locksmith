@@ -1,4 +1,4 @@
-                                ![logo](https://github.com/elijahgummer/locksmith/assets/96103526/fa594822-9c4d-4f6c-966a-9267e4142117)
+  <img width="100%" alt="locksmith" src="[https://github.com/elijahgummer/locksmith/assets/96103526/4dffefa4-3d6b-4e51-ad1c-51c533bafcd3](https://github.com/elijahgummer/locksmith/assets/96103526/fa594822-9c4d-4f6c-966a-9267e4142117)">
 
 ---
 
