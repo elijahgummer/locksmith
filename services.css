@@ -19,11 +19,10 @@
 
 #serviceHeader h1::after {
   content: "";
-  display: block;
-  margin: 0 auto; /* Centers the pseudo-element */
-  width: 20%; /* Half the width of the h1 element */
+  margin: -5px auto; /* Centers the pseudo-element */
+  width: 10%; /* Half the width of the h1 element */
   height: 2px; /* The thickness of your bottom border */
-  background-color: #ff6600; /* The color of your bottom border */
+  background-color: #ffffff; /* The color of your bottom border */
   position: absolute;
   bottom: 0; /* Aligns the pseudo-element to the bottom of the h1 */
   left: 0;
