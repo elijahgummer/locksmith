@@ -1,29 +1,16 @@
 /* SERVICES HEADER */
 
-#serviceHeader .container .content .image-container {
+#serviceHeader .image-container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-#serviceHeader .image-container {
   width: 100%;
   height: 500px;
   background-position: center;
   background-size: cover;
   background-image: url("images/keys.png");
   background-attachment: fixed;
-  background-position: -1;
-}
-
-#serviceHeader .container {
-  flex-direction: row;
-  position: relative;
-  height: auto;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Add a background overlay */
-  z-index: 4;
 }
 
 #serviceHeader h1 {
