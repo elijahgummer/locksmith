@@ -5,5 +5,9 @@
 }
 
 #serviceHeader h1 {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 25px;
     position: absolute;
 }
+
