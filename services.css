@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 #serviceHeader img {
@@ -15,7 +16,19 @@
   font-weight: 800;
   font-size: 30px;
   position: absolute;
+  margin-bottom: 90px;
 }
+#serviceHeader p {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 17px;
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  margin-top: 120px;
+}
+
+
 
 #serviceHeader h1::after {
   content: "";
