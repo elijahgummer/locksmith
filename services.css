@@ -3,3 +3,7 @@
 #serviceHeader img {
     width: 100%;
 }
+
+#serviceHeader h1 {
+    position: absolute;
+}
