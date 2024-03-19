@@ -1,5 +1,11 @@
 /* SERVICES HEADER */
 
+#serviceHeader .container .content .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #serviceHeader img {
     width: 100%;
 }
