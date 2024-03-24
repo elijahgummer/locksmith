@@ -127,4 +127,10 @@
     flex-direction: column;
     width: 100%;
   }
+
+  #serviceDeals .container .content .card {
+    text-align: center;
+    width: 50%;
+    margin: 30px;
+  }
 }
