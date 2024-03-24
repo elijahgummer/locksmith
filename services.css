@@ -103,6 +103,7 @@
 
 @media (max-width: 868px) {
 
+  /* HEADER */
 
   #serviceHeader h1 {
     margin-bottom: 190px;
@@ -112,4 +113,6 @@
   #serviceHeader p {
     width: 80%;
   }
+
+  /* DEALS */
 }
