@@ -54,9 +54,13 @@
 
 /* SERVICES DEALS */
 #serviceDeals .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: auto;
   padding: 80px;
+  
 }
 
 #serviceDeals .container .content {
@@ -65,6 +69,7 @@
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 90%;
 }
 
 #serviceDeals .container .content .card {
