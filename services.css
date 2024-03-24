@@ -130,7 +130,14 @@
 
   #serviceDeals .container .content .card {
     text-align: center;
-    width: 50%;
+    width: 60%;
     margin: 30px;
   }
+
+  #serviceDeals h1 {
+    width: 100%;
+    padding: 0;
+  }
+
+
 }
