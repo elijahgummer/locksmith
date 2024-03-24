@@ -75,5 +75,6 @@
 #serviceDeals .container .content .card {
   text-align: center;
   width: 25%;
+  margin: 10px;
 }
 
