@@ -115,4 +115,8 @@
   }
 
   /* DEALS */
+  #serviceDeals .container .content {
+    flex-direction: column;
+    width: 100%;
+  }
 }
