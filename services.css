@@ -1,5 +1,10 @@
 /* SERVICES HEADER */
 
+#serviceHeader .container {
+  width: 100%;
+  height: auto;
+}
+
 #serviceHeader .image-container {
   display: flex;
   align-items: center;
@@ -96,11 +101,10 @@
 
 
 @media (max-width: 868px) {
-  #serviceHeader .overlay {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: auto;
+
+
+  #serviceHeader h1 {
+    margin-bottom: 190px;
+    width: 90%;
   }
 }
