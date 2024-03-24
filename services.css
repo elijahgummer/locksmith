@@ -78,3 +78,10 @@
   margin: 10px;
 }
 
+#serviceDeals .container .content .card h1 {
+  font-size: 25px;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+  color: #333333;
+}
+
