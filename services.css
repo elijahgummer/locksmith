@@ -23,6 +23,7 @@
   align-items: center;
   justify-content: center;
   position: absolute;
+  text-align: center;
   width: 100%;
   height: 500px;
   background: rgba(0, 0, 0, 0.4); /* Add a background overlay */
@@ -106,5 +107,9 @@
   #serviceHeader h1 {
     margin-bottom: 190px;
     width: 90%;
+  }
+
+  #serviceHeader p {
+    width: 80%;
   }
 }
