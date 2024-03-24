@@ -51,3 +51,10 @@
   left: 0;
   right: 0;
 }
+
+/* SERVICES DEALS */
+#serviceDeals .container .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
