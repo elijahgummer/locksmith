@@ -53,6 +53,8 @@
 }
 
 /* SERVICES DEALS */
+
+
 #serviceDeals .container .content {
   display: flex;
   align-items: center;
@@ -60,3 +62,9 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+#serviceDeals .container .content .card {
+  text-align: center;
+  width: 25%;
+}
+
