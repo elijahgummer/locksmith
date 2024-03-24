@@ -69,13 +69,13 @@
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 90%;
+  width: 95%;
 }
 
 #serviceDeals .container .content .card {
   text-align: center;
-  width: 25%;
-  margin: 10px;
+  width: 30%;
+  margin: 15px;
 }
 
 #serviceDeals .container .content .card h1 {
@@ -91,5 +91,6 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   margin: 5px;
+  width: 100%;
 }
 
