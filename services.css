@@ -115,6 +115,14 @@
   }
 
   /* DEALS */
+
+  #serviceDeals .container {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    
+  }
+
   #serviceDeals .container .content {
     flex-direction: column;
     width: 100%;
