@@ -40,3 +40,10 @@
     justify-content: space-between;
     flex-direction: row;
   }
+
+  #aboutAboutus .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+  }
