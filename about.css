@@ -57,9 +57,10 @@
   }
 
   #aboutAboutus .content-container p {
-    color: white;
+    color: #333333;
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
+    margin: 20px;
   }
 
   #aboutAboutus .image-container {
