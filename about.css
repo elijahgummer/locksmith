@@ -43,7 +43,7 @@
 
   #aboutAboutus .content-container {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
   }
