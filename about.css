@@ -31,3 +31,12 @@
     color: white;
     width: 50%;
   }
+
+  /* ABOUT - ABOUT US */
+
+  #aboutAboutus .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
