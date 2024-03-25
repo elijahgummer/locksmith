@@ -55,3 +55,8 @@
     margin: 30px;
     padding: 40px;
   }
+
+  #aboutAboutus .image-container {
+    width: 40%;
+    height: auto;
+  }
