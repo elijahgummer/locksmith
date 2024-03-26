@@ -88,8 +88,10 @@
     border: none;
     border-radius: 17px;
     font-size: 17px;
-    padding: 20px 30px;
-
+    color: white;
+    padding: 15px;
+    width: 200px;
+    margin: 20px;
 }
 
 #aboutAboutus .image-container {
