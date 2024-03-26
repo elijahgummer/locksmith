@@ -1,79 +1,89 @@
-
 /* ABOUT HEADER  */
 #aboutHeader .image-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 500px;
-    background-position: center;
-    background-size: cover;
-    background-image: url("images/aboutUs.jpg");
-    background-attachment: fixed;
-  }
-  
-  #aboutHeader .overlay {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    height: 500px;
-    background: rgba(0, 0, 0, 0.4); /* Add a background overlay */
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/aboutUs.jpg");
+  background-attachment: fixed;
+}
 
-  #aboutHeader p {
-    font-size: 25px;
-    font-weight: 800;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    width: 50%;
-  }
+#aboutHeader .overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.4); /* Add a background overlay */
+}
 
-  /* ABOUT - ABOUT US */
+#aboutHeader p {
+  font-size: 25px;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  width: 50%;
+}
 
-  #aboutAboutus .container {
-    width: 100%;
-    height: auto;
-  }
+/* ABOUT - ABOUT US */
 
-  #aboutAboutus .content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-  }
+#aboutAboutus .container {
+  width: 100%;
+  height: auto;
+}
 
-  #aboutAboutus .content-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    width: 60%;
-    margin: 30px;
-    padding: 40px;
-  }
+#aboutAboutus .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
 
+#aboutAboutus .content-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  margin: 30px;
+  padding: 40px;
+}
 
+#aboutAboutus .content-container p {
+  color: #333333;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  margin: 20px;
+}
 
-  #aboutAboutus .content-container p {
-    color: #333333;
-    font-family: 'Poppins', sans-serif;
-    font-size: 17px;
-    margin: 20px;
-  }
+#aboutAboutus .content-container h1 {
+  color: #333333;
+  font-size: 35px;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  margin: 10px;
+}
 
-  #aboutAboutus .content-container h1 {
-    color: #333333;
-    font-size: 35px;
-    font-weight: 800;
-    font-family: "Poppins", sans-serif;
-    margin: 10px;
-  }
+#aboutAboutus .content-container h1::after {
+  content: "";
+  display: block;
+  margin: 0 auto; /* Centers the pseudo-element */
+  width: 20%; /* Half the width of the h1 element */
+  height: 2px; /* The thickness of your bottom border */
+  background-color: #ff6600; /* The color of your bottom border */
+  position: absolute;
+  bottom: 0; /* Aligns the pseudo-element to the bottom of the h1 */
+  left: 0;
+  right: 0;
+}
 
-  #aboutAboutus .image-container {
-    width: 40%;
-    height: auto;
-  }
+#aboutAboutus .image-container {
+  width: 40%;
+  height: auto;
+}
