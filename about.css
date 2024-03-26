@@ -68,6 +68,8 @@
   #aboutAboutus .content-container h1 {
     color: #333333;
     font-size: 25px;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
   }
 
   #aboutAboutus .image-container {
