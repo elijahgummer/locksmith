@@ -67,14 +67,14 @@
   font-size: 35px;
   font-weight: 800;
   font-family: "Poppins", sans-serif;
-  margin: 10px;
+  margin: 20px;
 }
 
 #aboutAboutus .content-container h1::after {
   content: "";
   display: block;
   position: absolute;
-  margin: 30px auto; /* Centers the pseudo-element */
+  margin: 20px auto; /* Centers the pseudo-element */
   width: 5%; /* Half the width of the h1 element */
   height: 2px; /* The thickness of your bottom border */
   background-color: #ff6600; /* The color of your bottom border */
