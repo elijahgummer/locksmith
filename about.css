@@ -98,6 +98,7 @@
 #aboutAboutus button:hover {
     background-color: white;
     border: 1px solid #ff6600;
+    color: #333333;
 }
 
 #aboutAboutus .image-container {
