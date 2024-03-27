@@ -43,6 +43,7 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  padding: 50px;
 }
 
 #aboutAboutus .content-container {
