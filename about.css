@@ -105,3 +105,7 @@
   width: 40%;
   height: auto;
 }
+
+#aboutAboutus .image-container img {
+  width: 90%;
+}
