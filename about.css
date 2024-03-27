@@ -125,12 +125,14 @@
   flex-direction: column;
 }
 
+
+
 #aboutFaqs .container .content .content-container h1 {
   font-size: 30px;
   font-weight: 700;
   color: #333333;
   font-family: 'Poppins', sans-serif;
-  
+  margin: 30px;
 }
 
 
