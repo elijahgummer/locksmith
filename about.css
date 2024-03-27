@@ -113,3 +113,7 @@
 
 /* FAQs AREA  */
 
+#aboutFaqs .container {
+  width: 100%;
+  height: auto;
+}
