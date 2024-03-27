@@ -125,7 +125,12 @@
   flex-direction: column;
 }
 
-
+#aboutFaqs .container .content .content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
 
 #aboutFaqs .container .content .content-container h1 {
   font-size: 30px;
