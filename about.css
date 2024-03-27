@@ -119,5 +119,5 @@
 }
 
 #aboutFaqs .container .content {
-  
+  display: flex;
 }
