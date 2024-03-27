@@ -125,3 +125,7 @@
   flex-direction: column;
 }
 
+#aboutFaqs .container .content .main-header {
+  justify-content: flex-start;
+}
+
