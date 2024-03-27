@@ -125,6 +125,9 @@
   flex-direction: column;
 }
 
+#about .container .content .content-container h1 {
+  font-size: 35px;
+}
 
 
 
