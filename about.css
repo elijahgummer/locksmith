@@ -75,7 +75,7 @@
   content: "";
   display: block;
   position: absolute;
-  margin: -20px auto; /* Centers the pseudo-element */
+  margin: -35px auto; /* Centers the pseudo-element */
   width: 5%; /* Half the width of the h1 element */
   height: 2px; /* The thickness of your bottom border */
   background-color: #ff6600; /* The color of your bottom border */
