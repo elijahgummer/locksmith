@@ -156,14 +156,15 @@
 
 #aboutFaqs .card::after {
   content: "";
-  margin: -5px auto;
-  width: 20%;
-  height: 2px;
-  background-color: #ff6600;
+  margin: -5px auto; /* Centers the pseudo-element */
+  width: 10%; /* Half the width of the h1 element */
+  height: 2px; /* The thickness of your bottom border */
+  background-color: #ff6600; /* The color of your bottom border */
   position: absolute;
-  top: 0;
+  bottom: 0; /* Aligns the pseudo-element to the bottom of the h1 */
   left: 0;
   right: 0;
+  display: block;
 }
 
 #aboutFaqs .card h3 {
