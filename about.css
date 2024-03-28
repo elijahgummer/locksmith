@@ -161,7 +161,7 @@
   right: 0;
   left: 0;
   width: 20%;
-  
+  margin: -5px auto;
 }
 
 #aboutFaqs .card h3 {
