@@ -132,11 +132,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 #aboutFaqs .container .content .content-container h1 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 700;
   color: #333333;
   font-family: 'Poppins', sans-serif;
@@ -148,7 +149,7 @@
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  width: 50%;
+  width: 70%;
 }
 
 #aboutFaqs .card h3 {
