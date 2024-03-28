@@ -157,11 +157,12 @@
 #aboutFaqs .card::after {
   content: "";
   margin: -5px auto;
+  width: 20%;
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
-  width: 20%;
+  
   
   height: 2px;
   background-color: #ff6600;
