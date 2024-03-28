@@ -152,17 +152,19 @@
   flex-direction: column;
   width: 50%;
   padding: 20px;
+  position: relative; /* Position the card relative */
 }
 
 #aboutFaqs .card::after {
   content: "";
-  width: 30%; /* Adjust as needed */
-  height: 2px; /* Adjust as needed */
-  background-color: #ff6600; /* Adjust color as needed */
+  width: 10%;
+  height: 2px;
+  background-color: #ff6600;
   position: absolute;
   top: 0; /* Aligns the pseudo-element to the top of the card */
   left: 0; /* Aligns the pseudo-element to the left of the card */
 }
+
 
 
 #aboutFaqs .card h3 {
