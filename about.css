@@ -148,8 +148,8 @@
   width: 50%;
 }
 
-#aboutFaqs .card {
-  
+#aboutFaqs .card h3 {
+  font-size: 27px;
 }
 
 
