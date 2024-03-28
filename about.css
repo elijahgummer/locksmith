@@ -128,7 +128,7 @@
 #aboutFaqs .container .content .content-container {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 
