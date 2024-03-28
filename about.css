@@ -154,8 +154,8 @@
   padding: 20px;
 }
 
-#aboutFaqs .card {
-  display: flex;
+#aboutFaqs .card::after {
+  content: "";
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
