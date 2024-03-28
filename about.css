@@ -156,11 +156,12 @@
 
 #aboutFaqs .card::after {
   content: "";
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  width: 50%;
-  padding: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 20%;
+  
 }
 
 #aboutFaqs .card h3 {
