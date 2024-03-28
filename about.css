@@ -154,6 +154,15 @@
   padding: 20px;
 }
 
+#aboutFaqs .card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px;
+}
+
 #aboutFaqs .card h3 {
   font-size: 25px;
   color: #333333;
