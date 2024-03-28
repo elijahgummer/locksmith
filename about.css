@@ -156,7 +156,7 @@
 
 #aboutFaqs .card::after {
   content: "";
-  width: 10%; /* Adjust as needed */
+  width: 30%; /* Adjust as needed */
   height: 2px; /* Adjust as needed */
   background-color: #ff6600; /* Adjust color as needed */
   position: absolute;
