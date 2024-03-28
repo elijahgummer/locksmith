@@ -145,6 +145,7 @@
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+  width: 50%;
 }
 
 
