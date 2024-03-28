@@ -151,7 +151,7 @@
   justify-content: center;
   flex-direction: column;
   width: 45%;
-  margin: 0px;
+  padding: 20px;
 }
 
 #aboutFaqs .card h3 {
