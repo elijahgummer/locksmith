@@ -159,6 +159,7 @@
   margin: -5px auto;
   width: 20%;
   height: 2px;
+  background-color: #ff6600;
   position: absolute;
   top: 0;
   right: 0;
@@ -166,7 +167,7 @@
   
   
   
-  background-color: #ff6600;
+  
 }
 
 #aboutFaqs .card h3 {
