@@ -164,7 +164,6 @@
   bottom: 0; /* Aligns the pseudo-element to the bottom of the h1 */
   left: 0;
   right: 0;
-  display: block;
 }
 
 #aboutFaqs .card h3 {
