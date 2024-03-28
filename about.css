@@ -153,13 +153,15 @@
   color: #333333;
   font-family: 'Mulish', sans-serif;
   font-family: 800;
+  margin: 5px 20px;
 }
 
 #aboutFaqs .card p {
   font-size: 17px;
   color: #000000;
   font-family: 'Poppins', sans-serif;
-  font-weight: 800;
+  font-weight: 300;
+  margin: 20px;
 }
 
 
