@@ -237,7 +237,8 @@
   }
 
   #aboutFaqs .container .content .content-container .card {
-    width: 80%;
+    width: 90%;
+    margin: 30px;
   }
 
 
