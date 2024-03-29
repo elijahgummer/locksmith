@@ -85,21 +85,21 @@
 }
 
 #aboutAboutus button {
-    background-color: #ff6600;
-    border: none;
-    border-radius: 50px;
-    font-size: 17px;
-    color: white;
-    padding: 15px;
-    width: 200px;
-    margin: 20px;
-    transition: all ease-in-out 0.5s;
+  background-color: #ff6600;
+  border: none;
+  border-radius: 50px;
+  font-size: 17px;
+  color: white;
+  padding: 15px;
+  width: 200px;
+  margin: 20px;
+  transition: all ease-in-out 0.5s;
 }
 
 #aboutAboutus button:hover {
-    background-color: white;
-    border: 1px solid #ff6600;
-    color: #333333;
+  background-color: white;
+  border: 1px solid #ff6600;
+  color: #333333;
 }
 
 #aboutAboutus .image-container {
@@ -142,7 +142,7 @@
   font-size: 35px;
   font-weight: 700;
   color: #333333;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #aboutFaqs .card {
@@ -166,12 +166,10 @@
   margin: 15px 40px;
 }
 
-
-
 #aboutFaqs .card h3 {
   font-size: 25px;
   color: #333333;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   font-family: 800;
   margin: 5px 20px;
 }
@@ -179,7 +177,7 @@
 #aboutFaqs .card p {
   font-size: 17px;
   color: #000000;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   margin: 5px 20px;
 }
@@ -219,9 +217,9 @@
   }
 
   #aboutAboutus .container .content .content-container h1::after {
-    
+    margin: 170px auto; /* Centers the pseudo-element */
+    width: 25%;
+    left: 0;
+    right: 0;
   }
-
-
 }
-
