@@ -225,10 +225,15 @@
 
   /* FAQS RESPONSIVNESS AREA */
 
+  #aboutFaqs .container {
+    padding: 0;
+  }
+
   #aboutFaqs .container .content .content-container {
     margin: 0;
     padding: 0;
     flex-direction: column;
+    width: 100%;
   }
 
   #aboutFaqs .content {
