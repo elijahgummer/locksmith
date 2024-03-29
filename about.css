@@ -217,6 +217,13 @@
     margin: 15px;
     width: 80%;
   }
+  
+  #aboutAboutus .container .content .content-container {
+    align-items: center;
+    padding: 0;
+    margin: 15px;
+    width: 80%;
+  }
 
 
 }
