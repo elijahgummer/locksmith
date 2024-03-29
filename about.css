@@ -231,5 +231,7 @@
     flex-direction: column;
   }
 
-  
+  #aboutFaqs .content {
+    flex-direction: column;
+  }
 }
