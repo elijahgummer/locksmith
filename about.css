@@ -225,7 +225,7 @@
 
   /* FAQS RESPONSIVNESS AREA */
 
-  #aboutFaqs .content-container {
+  #aboutFaqs .container .content .content-container {
     margin: 0;
     padding: 0;
     flex-direction: column;
@@ -235,6 +235,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
   }
 
 }
