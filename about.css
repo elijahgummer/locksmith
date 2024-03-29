@@ -188,5 +188,8 @@
 
 @media (max-width: 868px) {
   /* HEADER RESPONSIVNESS */
+  #aboutHeader .container .content .image-container .overlay {
+    width: 100%;
+  }
 }
 
