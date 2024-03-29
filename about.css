@@ -236,7 +236,9 @@
     width: 100%;
   }
 
-  #aboutFaqs .container .content .content-container .card
+  #aboutFaqs .container .content .content-container .card {
+    width: 80%;
+  }
 
 
 
