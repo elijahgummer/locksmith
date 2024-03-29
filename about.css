@@ -226,6 +226,7 @@
   /* FAQS RESPONSIVNESS AREA */
 
   #aboutFaqs .content-container {
-    
+    margin: 0;
+    padding: 0;
   }
 }
