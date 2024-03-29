@@ -191,15 +191,18 @@
 
   #aboutHeader .container .content .image-container {
     width: 100%;
+    height: 400px;
   }
 
   #aboutHeader .container .content .image-container .overlay {
     width: 100%;
+    height: 400px;
   }
 
   #aboutHeader .container .content .image-container .overlay p {
     width: 90%;
     font-size: 20px;
+    margin-top: 40px;
   }
 }
 
