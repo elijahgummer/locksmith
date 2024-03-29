@@ -217,7 +217,7 @@
   }
 
   #aboutAboutus .container .content .content-container h1::after {
-    margin: 170px auto; /* Centers the pseudo-element */
+    margin: 170px auto; 
     width: 25%;
     left: 0;
     right: 0;
