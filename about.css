@@ -229,6 +229,10 @@
     padding: 0;
   }
 
+  #aboutFaqs .container .content {
+    margin-top: 60px;
+  }
+
   #aboutFaqs .container .content .content-container {
     margin: 0;
     padding: 0;
