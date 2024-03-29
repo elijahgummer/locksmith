@@ -208,6 +208,7 @@
   /* ABOUT RESPONSIVNESS AREA  */
   #aboutAboutus .container .content {
     flex-direction: column;
+    padding: 0;
   }
 }
 
