@@ -1,4 +1,8 @@
 /* Articles Header */
+#articlesHeader .content  {
+
+}
+
 #articlesHeader .image-container {
   display: flex;
   align-items: center;
@@ -23,7 +27,7 @@
   background: rgba(0, 0, 0, 0.1); /* Add a background overlay */
 }
 
-#articlesHeader p {
+#articlesHeader h1 {
   font-size: 25px;
   font-weight: 800;
   font-family: "Poppins", sans-serif;
