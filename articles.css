@@ -1,5 +1,5 @@
 /* Articles Header */
-#articlesHeader .container .content {
+#articlesHeader .image-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,3 +11,5 @@
   background-image: url("images/keysTools.png");
   background-attachment: fixed;
 }
+
+
