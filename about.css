@@ -224,7 +224,11 @@
   }
 
   #aboutAboutus .container .content .image-container {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 10px;
   }
 
 
