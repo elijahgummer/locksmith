@@ -44,3 +44,8 @@
 
 /* ARTICLES FEATURES */
   
+#articlesFeatures .card {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
