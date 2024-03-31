@@ -44,11 +44,17 @@
 
 /* ARTICLES FEATURES */
   
+
 #articlesFeatures .card {
   display: flex;
   align-items: center;
   justify-self: center;
   flex-direction: row;
+}
+
+#articlesFeatures .card img {
+  width: 300px;
+  height: 300px;
 }
 
 #articlesFeatures .card .content-container {
