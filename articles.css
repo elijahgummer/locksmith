@@ -60,6 +60,7 @@
 #articlesFeatures .card img {
   width: 35%;
   height: 100%;
+  transition: all ease-in-out 0.5s;
 }
 
 #articlesFeatures .card img:hover {
