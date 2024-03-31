@@ -66,5 +66,7 @@
   height: auto;
 }
 
-#articlesFeatures .card 
+#articlesFeatures .card .content-container {
+  
+}
 
