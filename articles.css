@@ -43,7 +43,10 @@
   }
 
 /* ARTICLES FEATURES */
-  
+
+#articlesFeatures .content {
+  margin: 100px;
+}
 
 #articlesFeatures .card {
   display: flex;
