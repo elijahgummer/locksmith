@@ -73,8 +73,9 @@
   transform: scale(1.1); /* Zoom in effect on hover */
 }
 
-
-
+#articlesFeatures .card .content-container {
+  width: 100%;
+}
 
 #articlesFeatures .card .content-container h1 {
   color: #333333;
