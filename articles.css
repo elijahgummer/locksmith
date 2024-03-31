@@ -57,9 +57,11 @@
   background-color: #F5F5F5;
 }
 
-#articlesFeatures .card 
+#articlesFeatures .card .image-container {
 
-#articlesFeatures .card img {
+}
+
+#articlesFeatures .card .image-container img {
   width: 35%;
   height: 100%;
   transition: transform ease-in-out 0.5s; /* Only transition transform property */
