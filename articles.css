@@ -57,8 +57,8 @@
 }
 
 #articlesFeatures .card img {
-  width: 400px;
-  height: auto;
+  width: 35%;
+  height: 100%;
 }
 
 #articlesFeatures .card .content-container {
