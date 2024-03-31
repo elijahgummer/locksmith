@@ -57,15 +57,18 @@
   background-color: #F5F5F5;
 }
 
+#articlesFeatures .card 
+
 #articlesFeatures .card img {
   width: 35%;
   height: 100%;
-  transition: all ease-in-out 0.5s;
+  transition: transform ease-in-out 0.5s; /* Only transition transform property */
 }
 
 #articlesFeatures .card img:hover {
-  transform:scale(1.1); 
+  transform: scale(1); /* Change scale value to zoom out */
 }
+
 
 
 #articlesFeatures .card .content-container h1 {
