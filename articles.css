@@ -50,3 +50,8 @@
   justify-self: center;
   flex-direction: row;
 }
+
+#articlesFeatures .card .content-container {
+  background-color: #F5F5F5;
+}
+
