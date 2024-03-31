@@ -62,6 +62,11 @@
   height: 100%;
 }
 
+#articlesFeatures .card img:hover {
+  width: 35%;
+  height: 100%;
+}
+
 
 #articlesFeatures .card .content-container h1 {
   color: #333333;
