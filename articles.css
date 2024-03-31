@@ -63,8 +63,7 @@
 
 #articlesFeatures .card .content-container {
   background-color: #F5F5F5;
-  width: 90%;
-  height: auto;
+  height: 400px;
 }
 
 #articlesFeatures .card .content-container h1 {
