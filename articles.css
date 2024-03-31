@@ -53,6 +53,7 @@
   align-items: center;
   justify-self: center;
   flex-direction: row;
+  height: auto;
 }
 
 #articlesFeatures .card img {
