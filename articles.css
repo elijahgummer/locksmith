@@ -58,8 +58,8 @@
 }
 
 #articlesFeatures .card .image-container {
-  width: 35%; /* Adjust width as needed */
-  height: 100%; /* Adjust height as needed */
+  width: 50%; /* Adjust width as needed */
+  height: auto; /* Adjust height as needed */
   overflow: hidden; /* Hide overflow */
 }
 
