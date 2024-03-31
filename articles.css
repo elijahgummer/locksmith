@@ -58,18 +58,21 @@
 }
 
 #articlesFeatures .card .image-container {
-
+  width: 35%; /* Adjust width as needed */
+  height: 100%; /* Adjust height as needed */
+  overflow: hidden; /* Hide overflow */
 }
 
 #articlesFeatures .card .image-container img {
-  width: 35%;
-  height: 100%;
-  transition: transform ease-in-out 0.5s; /* Only transition transform property */
+  width: 100%; /* Ensure image fills container */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform ease-in-out 0.5s; /* Transition for zoom effect */
 }
 
-#articlesFeatures .card img:hover {
-  transform: scale(1); /* Change scale value to zoom out */
+#articlesFeatures .card .image-container:hover img {
+  transform: scale(1.1); /* Zoom in effect on hover */
 }
+
 
 
 
