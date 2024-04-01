@@ -46,6 +46,7 @@
 
 #articlesFeatures .content {
   display: flex;
+  align-items: center;
   margin: 100px;
 }
 
