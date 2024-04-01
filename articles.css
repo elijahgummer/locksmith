@@ -102,6 +102,10 @@
   text-decoration: none;
 }
 
+#articlesFeatures .card .content-container p a:hover {
+  text-decoration: none;
+}
+
 #articlesFeatures button {
   background-color: #ff6600;
   border: 1.5px solid #ff6600;
