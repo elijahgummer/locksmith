@@ -103,7 +103,7 @@
 }
 
 #articlesFeatures .card .content-container p a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 #articlesFeatures button {
