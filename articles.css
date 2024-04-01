@@ -100,12 +100,14 @@
 
 #articlesFeatures button {
   background-color: #ff6600;
-  color: #ffffff;
-  border: none;
-  border-radius: 17px;
-  font-size: 17px;
+  border: 1.5px solid #ff6600;
+  padding: 15px;
+  margin: 15px;
   width: 200px;
-  padding: 10px;
+  color: white;
+  border-radius: 50px;
+  font-size: 17px;
+  transition: all ease-in-out 0.5s;
 }
 
 
