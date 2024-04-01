@@ -110,7 +110,7 @@
   transition: all ease-in-out 0.5s;
 }
 
-#offers button:hover {
+# button:hover {
   color: black;
   background-color: white;
 }
