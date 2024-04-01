@@ -55,6 +55,7 @@
   flex-direction: row;
   height: auto;
   background-color: #F5F5F5;
+  margin: 40px 0px;
 }
 
 #articlesFeatures .card .image-container {
