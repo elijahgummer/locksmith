@@ -45,6 +45,7 @@
 /* ARTICLES FEATURES */
 
 #articlesFeatures .content {
+  display: flex;
   margin: 100px;
 }
 
