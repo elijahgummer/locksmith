@@ -98,7 +98,9 @@
   text-decoration: none;
 }
 
-#articlesFeatures .card .content-container
+#articlesFeatures .card .content-container button {
+  
+}
 
 
 
