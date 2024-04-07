@@ -9,7 +9,8 @@
     background-position: center;
     background-size: cover;
     background-image: url("images/keysTools.png");
-    
+    background-attachment: fixed;
+  
 
 /* CONTACT FORM AREA */
 
