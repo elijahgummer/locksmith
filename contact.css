@@ -39,7 +39,7 @@
     margin: 45px auto; /* Centers the pseudo-element */
     width: 10%; /* Half the width of the h1 element */
     height: 2px; /* The thickness of your bottom border */
-    background-color: #cc1212; /* The color of your bottom border */
+    background-color: #ffffff; /* The color of your bottom border */
     position: absolute;
     top: -1; /* Aligns the pseudo-element to the bottom of the h1 */
     left: 0;
