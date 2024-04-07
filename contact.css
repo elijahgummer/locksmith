@@ -10,4 +10,6 @@
   transition: all ease-in-out 0.5s;
 }
 
-#contactForm .contactMessageForm button:hover
+#contactForm .contactMessageForm button:hover {
+    
+}
