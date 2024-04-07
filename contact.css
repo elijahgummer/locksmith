@@ -24,6 +24,15 @@
     background: rgba(0, 0, 0, 0.1); /* Add a background overlay */
   }
 
+  #articlesHeader h1 {
+    font-size: 25px;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    width: 50%;
+    margin: 30px;
+  }
+
 /* CONTACT FORM AREA */
 
 #contactForm .contactMessageForm button {
