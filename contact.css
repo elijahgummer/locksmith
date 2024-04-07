@@ -1,5 +1,7 @@
 /* Contact Header area */
-
+#articlesHeader .image-container {
+    display: flex;
+    
 
 /* CONTACT FORM AREA */
 
