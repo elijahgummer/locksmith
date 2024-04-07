@@ -1,6 +1,7 @@
 /* Contact Header area */
 #articlesHeader .image-container {
     display: flex;
+    align-items: center;
     
 
 /* CONTACT FORM AREA */
