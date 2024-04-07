@@ -10,7 +10,10 @@
     background-size: cover;
     background-image: url("images/keysTools.png");
     background-attachment: fixed;
+  }
   
+  #articlesHeader .overlay {
+    
 
 /* CONTACT FORM AREA */
 
