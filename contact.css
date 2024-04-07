@@ -13,7 +13,8 @@
   }
   
   #articlesHeader .overlay {
-    
+    display: flex;
+   
 
 /* CONTACT FORM AREA */
 
