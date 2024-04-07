@@ -14,7 +14,8 @@
   
   #articlesHeader .overlay {
     display: flex;
-   
+    align-items: center;
+    
 
 /* CONTACT FORM AREA */
 
