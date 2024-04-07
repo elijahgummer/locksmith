@@ -33,6 +33,14 @@
     margin: 30px;
   }
 
+  #articlesHeader p {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    width: 50%;
+  }
+
 /* CONTACT FORM AREA */
 
 #contactForm .contactMessageForm button {
