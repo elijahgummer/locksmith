@@ -7,5 +7,5 @@
   color: white;
   border-radius: 50px;
   font-size: 17px;
-  
+  transition: all ease-in-out 0.5s;
 }
