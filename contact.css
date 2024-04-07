@@ -1,4 +1,5 @@
 #contactForm .contactMessageForm button {
   background-color: #ff6600;
-  
+  border: 1.5px solid #ff6600;
+ 
 }
