@@ -2,6 +2,7 @@
 #articlesHeader .image-container {
     display: flex;
     align-items: center;
+    justify-content: center;
     
 
 /* CONTACT FORM AREA */
