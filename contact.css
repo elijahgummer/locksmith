@@ -34,7 +34,7 @@
   }
 
 
-  #serviceHeader h1::after {
+  #contactHeader h1::after {
     content: "";
     margin: -5px auto; /* Centers the pseudo-element */
     width: 10%; /* Half the width of the h1 element */
