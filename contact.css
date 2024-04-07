@@ -18,6 +18,7 @@
     justify-content: center;
     position: absolute;
     text-align: center;
+    flex-direction: column;
     
 
 /* CONTACT FORM AREA */
