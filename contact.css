@@ -91,7 +91,7 @@
 }
 
 #contactForm .container .content {
-  
+  display: flex;
 }
 
 #contactForm .contactInfo h1::after {
