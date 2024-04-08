@@ -96,6 +96,11 @@
   align-items: center;
 }
 
+#contactForm .container .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #contactForm .contactInfo h1::after {
   content: "";
   position: absolute;
