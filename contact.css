@@ -93,6 +93,7 @@
 #contactForm .container .content {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 #contactForm .contactInfo h1::after {
