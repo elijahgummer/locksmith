@@ -93,7 +93,7 @@
 #contactForm .contactInfo h1::after {
   content: "";
   position: absolute;
-  color: #333333;
+  background-color: #ff6600;
   width: 10%;
   height: 2px;
 }
