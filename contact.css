@@ -96,7 +96,7 @@
   align-items: center;
 }
 
-#contactForm .container .content {
+#contactForm .container .content . {
   display: flex;
   justify-content: center;
   align-items: center;
