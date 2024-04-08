@@ -96,10 +96,11 @@
   align-items: center;
 }
 
-#contactForm .container .content . {
+#contactForm .container .content .contactInfo {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 
