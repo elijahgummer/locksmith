@@ -134,8 +134,8 @@
 }
 
 
-#contactForm .contactInfo p {
-  color: #333333;
+#contactForm .contactInfo span {
+  color: #bc2020;
   font-weight: 400;
   font-family: 'Mulish', sans-serif;
   font-size: 20px;
