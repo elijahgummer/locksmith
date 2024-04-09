@@ -151,6 +151,7 @@
 }
 
 #contactForm .contactInfo .logos .circle {
+  display: flex;
   margin: 15px;
   background: #EFEFEF;
   width: 30px;
