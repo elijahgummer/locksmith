@@ -90,6 +90,18 @@
 
 }
 
+#contactForm .contactInfo h1::after {
+  content: "";
+  position: absolute;
+  background-color: #ff6600;
+  width: 10%;
+  height: 2px;
+  margin: 40px;
+  top: -1;
+  right: 0;
+  left: 0;
+}
+
 #contactForm .container  {
   display: flex;
   align-items: center;
