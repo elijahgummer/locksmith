@@ -90,7 +90,9 @@
 
 }
 
-#contactForm .container
+#contactForm .container .content {
+  
+}
 
 #contactForm .container .content {
   display: flex;
