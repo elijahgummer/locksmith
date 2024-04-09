@@ -91,7 +91,7 @@
 }
 
 #contactForm .container  {
-
+  display: flex;
 }
 
 #contactForm .container .content {
