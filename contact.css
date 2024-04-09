@@ -153,5 +153,7 @@
 #contactForm .contactInfo .logos .circle {
   margin: 15px;
   background: #EFEFEF;
+  width: 30px;
+  height: 30px; 
 }
 
