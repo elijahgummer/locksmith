@@ -92,6 +92,7 @@
 
 #contactForm .container  {
   display: flex;
+  align-items: center;
 }
 
 #contactForm .container .content {
