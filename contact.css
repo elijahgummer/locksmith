@@ -125,4 +125,6 @@
   left: 0;
 }
 
-#contactForm 
+#contactForm .contactInfo p {
+  
+}
