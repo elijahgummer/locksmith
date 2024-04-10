@@ -641,7 +641,7 @@ right: 0;
   padding: 100px;
 }
 
-form {
+.form form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -652,7 +652,7 @@ form {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Simple box shadow */
 }
 
-form input {
+.form form input {
   margin: 20px;
   border: none;
   border-bottom: 1px solid #2e2e2e; /* Add a 2px solid border on the bottom */
