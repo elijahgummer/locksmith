@@ -661,7 +661,7 @@ right: 0;
   outline: none;
 }
 
-form button {
+.form form button {
   background-color: #ff6600;
   border: 1.5px solid #ff6600;
   padding: 15px;
