@@ -172,7 +172,7 @@
 
 .contactMessageForm form input::placeholder {
   color: #333333;
-  
+  padding: 7px;
 }
 
 
