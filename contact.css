@@ -94,13 +94,14 @@
   content: "";
   position: absolute;
   background-color: #ff6600;
-  width: 5%;
+  width: 50%; /* Adjust the width of the border */
   height: 2px;
-  margin: 40px;
-  top: -1;
-  right: 0;
+  margin: 0 auto; /* Center the border horizontally */
+  bottom: -10px; /* Position the border underneath the h1 text */
   left: 0;
+  right: 0;
 }
+
 
 #contactForm .container  {
   display: flex;
