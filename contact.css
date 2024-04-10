@@ -166,8 +166,10 @@
   font-size: 17px;
 }
 
-.contactMessageForm form #name, #email, #message, #phone {
+.contactMessageForm form input {
   border: 1px solid black;
-  color: red;
 }
+
+
+
 
