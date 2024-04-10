@@ -168,5 +168,6 @@
 
 .contactMessageForm form #name, #email, #message, #phone {
   border: 1px solid black;
+  color: red;
 }
 
