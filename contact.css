@@ -171,7 +171,8 @@
 }
 
 .contactMessageForm form input::placeholder {
-  color: red;
+  color: #333333;
+  
 }
 
 
