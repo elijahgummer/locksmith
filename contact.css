@@ -170,6 +170,9 @@
   border: 1px solid black;
 }
 
+.contactMessageForm form input::placeholder {
+  color: red;
+}
 
 
 
