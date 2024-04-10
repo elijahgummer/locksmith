@@ -96,10 +96,10 @@
   background-color: #ff6600;
   width: 50%; /* Adjust the width of the border */
   height: 2px;
-  margin: 10px auto; /* Center the border horizontally with some margin */
-  right: 1px;
-  left: 1px;
+  margin: 10px 0; /* Adjust margin as needed */
+  align-self: flex-start; /* Align border to flex start */
 }
+
 
 
 
