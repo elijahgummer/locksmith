@@ -673,7 +673,7 @@ right: 0;
   width: 70%;
 }
 
-form button:hover {
+.form form button:hover {
   color: black;
   background-color: white;
 }
