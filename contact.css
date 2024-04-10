@@ -76,6 +76,7 @@
   border-radius: 50px;
   font-size: 17px;
   transition: all ease-in-out 0.5s;
+  text-align: center;
 }
 
 #contactForm .contactMessageForm button:hover {
