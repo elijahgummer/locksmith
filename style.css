@@ -678,7 +678,7 @@ right: 0;
   background-color: white;
 }
 
-form h1 {
+.form form h1 {
   position: relative; /* Essential for positioning the pseudo-element */
   padding: 20px;
   font-weight: 700;
