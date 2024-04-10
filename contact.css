@@ -167,6 +167,6 @@
 }
 
 .contactMessageForm form #name {
-  
+  border: 1px solid black;
 }
 
