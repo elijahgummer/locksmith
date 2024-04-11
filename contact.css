@@ -191,4 +191,9 @@
   height: 50px;
 }
 
+.contactMessageForm form #email {
+  height: 50px;
+  width: 100%;
+}
+
 
