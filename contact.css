@@ -199,5 +199,9 @@
   height: 50px;
   width: 94%;
 }
+.contactMessageForm form #email {
+  height: 50px;
+  width: 94%;
+}
 
 
