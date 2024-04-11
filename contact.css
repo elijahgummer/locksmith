@@ -168,6 +168,10 @@
 
 .contactMessageForm form {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row ;
 }
 
 .contactMessageForm form input {
