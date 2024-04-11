@@ -206,5 +206,8 @@
 
 /* RESPONSIVNESS */
 @media (max-width: 860px) {
-  
+  #contactForm .content {
+    flex-direction: column;
+
+  }
 }
