@@ -166,6 +166,10 @@
   font-size: 17px;
 }
 
+.contactMessageForm form {
+  display: flex;
+}
+
 .contactMessageForm form input {
   border: 1px solid black;
 }
@@ -176,5 +180,9 @@
   font-size: 18px;
 }
 
+
+.contactMessageForm form #name {
+  height: 50px;
+}
 
 
