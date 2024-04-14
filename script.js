@@ -81,13 +81,15 @@ window.onscroll = function () {
     var screenWidth = window.innerWidth; // Get the screen width
 
     if (screenWidth > 860) { // Only execute this code if screen width is greater than 860px
-      if (currentScrollPos < 50) {
+      if (currentScrollPos < 36) {
         contactRow.style.display = "block";
+        contactRow.classList.remove("hide");
         navbar.style.top = "60px";
       } else {
         contactRow.style.display = "none";
+        contactRow.classList.add("hide");
         navbar.style.top = "0";
       }
     }
-  }, 10);
+  }, 100); // Increase the debounce delay for smoother scrolling
 };

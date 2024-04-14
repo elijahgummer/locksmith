@@ -65,6 +65,15 @@ html {
   padding: 5px;
 }
 
+.contact-row {
+  transition: top 0.3s ease;
+}
+
+.hide {
+  top: -100px; /* Adjust this value according to the height of the contact row */
+}
+
+
 /* NAVBAR */
 .navbar {
   font-size: 1.7rem;
@@ -80,7 +89,6 @@ html {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
   align-items: center;
   z-index: 5;
-  transition: all ease-in-out 0.3s;
 }
 
 .navbar ul {
