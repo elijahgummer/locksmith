@@ -215,4 +215,8 @@
   .contactMessageForm form input {
     width: 94%;
   }
+
+  #contactHeader h1 {
+    width: 100%;
+  }
 }
