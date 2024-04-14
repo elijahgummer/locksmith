@@ -131,7 +131,8 @@
   }
 
   #articlesFeatures .content {
-    width: 100%;
+    width: 90%;
+    margin: 0;
   }
   #articlesFeatures .content .card {
     width: 100%;
