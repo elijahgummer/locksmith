@@ -115,6 +115,24 @@ html {
   display: inline-flex;
 }
 
+.navbar button {
+  background-color: white;
+  border: 1.5px solid white;
+  padding: 15px;
+  margin: 50px 10px 10px 10px;
+  width: 200px;
+  color:#ff6600;
+  border-radius: 50px;
+  font-size: 17px;
+  transition: all ease-in-out 0.5s;
+}
+
+.navbar button:hover {
+  color: black;
+  background-color: white;
+
+}
+
 .menu-list li {
   list-style: none;
 }
