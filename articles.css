@@ -133,9 +133,11 @@
   #articlesFeatures .content {
     width: 90%;
     margin: 0;
+    
   }
   #articlesFeatures .content .card {
     width: 100%;
+    flex-direction: column;
   }
 
 
