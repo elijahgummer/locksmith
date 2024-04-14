@@ -219,4 +219,8 @@
   #contactHeader h1 {
     width: 100%;
   }
+
+  #contactHeader span {
+    width: 100%;
+  }
 }
