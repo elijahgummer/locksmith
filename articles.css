@@ -129,4 +129,14 @@
   #articlesHeader .overlay p {
     width: 90%;
   }
+
+  #articlesFeatures .content {
+    width: 100%;
+  }
+  #articlesFeatures .content .card {
+    width: 100%;
+  }
+
+
+
 }
