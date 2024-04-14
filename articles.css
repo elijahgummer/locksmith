@@ -125,4 +125,8 @@
 
 /* REPONSIVNESS */
 
-
+@media (max-width: 860px) {
+  #articlesHeader .overlay p {
+    width: 90%;
+  }
+}
