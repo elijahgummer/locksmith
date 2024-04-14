@@ -44,6 +44,13 @@
 
 /* ARTICLES FEATURES */
 
+#articlesFeatures .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 #articlesFeatures .content {
   display: flex;
   align-items: center;
@@ -132,12 +139,12 @@
 
   #articlesFeatures .content {
     width: 90%;
-    margin: 0;
-    
+    margin: 0; 
   }
   #articlesFeatures .content .card {
     width: 100%;
     flex-direction: column;
+    text-align: center;
   }
 
 
