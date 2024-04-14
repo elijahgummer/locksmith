@@ -211,4 +211,8 @@
     margin: 0;
     padding: 0;
   }
+
+  .contactMessageForm form input {
+    width: 94%;
+  }
 }
