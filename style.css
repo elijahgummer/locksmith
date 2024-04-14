@@ -936,6 +936,7 @@ footer .info-box p {
 
   .navbar button {
     display: block;
+    width: 80%;
   }
 
   .contact-row {
