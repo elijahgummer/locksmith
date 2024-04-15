@@ -4,36 +4,28 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
-
 body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
-
 html {
   scroll-behavior: smooth;
 }
-
 /* Custom scroll bar */
 ::-webkit-scrollbar {
   width: 10px;
 }
-
 ::-webkit-scrollbar-track {
   background: #1e1e1e;
 }
-
 ::-webkit-scrollbar-thumb {
   background: #2b2b2b;
 }
-
 ::selection {
   background: #FF6600;
   color: #ffffff;
 }
-
 /* CONTACT ROW */
-
 .contact-row .container {
   display: flex;
   align-items: center;
@@ -43,7 +35,6 @@ html {
   width: 100%;
   height: 60px;
 }
-
 .contact-row .container .content {
   display: flex;
   align-items: center;
@@ -54,26 +45,20 @@ html {
   z-index: 20;
   width: 100%;
 }
-
 .contact-row .container .content h3 {
   margin: 10px;
   padding: 10px;
 }
-
 .contact-row .container .content i {
   margin: 5px;
   padding: 5px;
 }
-
 .contact-row {
   transition: top 0.3s ease;
 }
-
 .hide {
   top: -100px; /* Adjust this value according to the height of the contact row */
 }
-
-
 /* NAVBAR */
 .navbar {
   font-size: 1.7rem;
@@ -90,13 +75,11 @@ html {
   align-items: center;
   z-index: 5;
 }
-
 .navbar ul {
   display: flex;
   list-style: none;
   gap: 2.5rem;
 }
-
 .navbar ul a {
   color: #ffffff;
   text-decoration: none;
@@ -105,16 +88,13 @@ html {
   transition: all 0.23s;
   margin: -5px;
 }
-
 .navbar ul li {
   display: flex;
   align-items: center;
 }
-
 .navbar .menu-list {
   display: inline-flex;
 }
-
 .navbar button {
   background-color: #ff6600;
   border: 1.5px solid white;
@@ -127,39 +107,31 @@ html {
   transition: all ease-in-out 0.5s;
   display: none;
 }
-
 .navbar button:hover {
   color: black;
   background-color: white;
-
 }
-
 .menu-list li {
   list-style: none;
 }
-
 .menu-list li a:hover {
   color: #2d2e32;
 }
-
 .icon {
   color: #ffffff;
   font-size: 24px;
   cursor: pointer;
   display: none;
 }
-
 .icon:hover {
   color: #2d2e32;
   transition: all 0.3s;
 }
-
 .menu-list .cancel-btn {
   position: absolute;
   right: 30px;
   top: 20px;
 }
-
 .logo {
   color: #ffffff;
   font-size: 20px;
@@ -167,43 +139,35 @@ html {
   font-weight: 800;
   margin-left: 70px;
 }
-
 @media (max-width: 868px) {
   body.disabled {
     overflow: hidden;
   }
-
   .icon {
     display: block;
     font-size: 27px;
   }
-
   .icon.hide {
     display: none;
   }
-
   .contact-row {
     display: none;
   }
-
   .navbar {
     top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-
   .logo-container {
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
   .logo {
     width: 100%;
   }
-
   .navbar .menu-list {
     position: fixed;
     height: 100vh;
@@ -220,28 +184,22 @@ html {
     background: #ff6600;
     transition: all 0.3s ease;
   }
-
   .navbar.show .menu-list {
     left: 0%;
   }
-
   .navbar .menu-list li {
     margin: 10px;
   }
-
   .navbar .menu-list li a {
     font-size: 23px;
     margin-left: -100%;
     transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
-
   .navbar.show .menu-list li a {
     margin-left: 0px;
   }
 }
-
 /* HEADER */
-
 #header .container {
   display: flex;
   align-items: center;
@@ -250,7 +208,6 @@ html {
   width: 100%;
   height: 800px;
 }
-
 #header .container .content {
   color: white;
   width: 46%;
@@ -258,7 +215,6 @@ html {
   z-index: 1;
   position:static;
 }
-
 #header .container .content h1 {
   font-size: 48px;
   font-weight: 800;
@@ -266,7 +222,6 @@ html {
   margin: 5px;
   position: relative;
 }
-
 #header .container .content h1::after {
   content: ""; /* Add empty content */
   position: absolute; /* Set position to absolute */
@@ -276,8 +231,6 @@ html {
   height: 2px; /* Height of the pseudo-element */
   background-color: white; /* Color of the line */
 }
-
-
 #header .container .content p {
   font-size: 24px;
   font-weight: 500;
@@ -285,7 +238,6 @@ html {
   padding: 5px;
   margin: 50px 10px 10px 10px;
 }
-
 #header button {
   background-color: white;
   border: 1.5px solid white;
@@ -297,41 +249,34 @@ html {
   font-size: 17px;
   transition: all ease-in-out 0.5s;
 }
-
 #header button:hover {
   color: #ffffff;
   background-color: #ff6600;
 }
-
 #header .container .image-container {
   width: 63%;
   z-index: 1;
   margin-top: 200px;
 
 }
-
 #header .container .image-container img {
   width: 800px;
   z-index: 1;
   position: relative;
 }
-
 /* SERVICES */
-
 #services .container {
   display: flex;
   justify-content: center;
   width: 100%;
   height: auto;
 }
-
 #services .content {
   display: flex;
   align-items: center;
   margin: 100px;
   flex-direction: column;
 }
-
 #services h1 {
   position: relative; /* Essential for positioning the pseudo-element */
   padding: 20px;
@@ -340,7 +285,6 @@ html {
   margin: 5px;
   color: #313131;
 }
-
 #services h1::after {
   content: "";
   display: block;
@@ -353,15 +297,12 @@ html {
   left: 0;
   right: 0;
 }
-
-
 #services .advantage-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
 }
-
 #services .card {
   display: flex;
   align-items: center;
@@ -371,7 +312,6 @@ html {
   width: 35%;
   padding: 10px;
 }
-
 #services .bubble {
   display: flex;
   align-items: center;
@@ -382,12 +322,10 @@ html {
   width: 120px;
   height: 120px;
 }
-
 #services i {
   font-size: 45px;
   color: #ff6600;
 }
-
 #services h3 {
   font-size: 25px;
   font-weight: 700;
@@ -395,7 +333,6 @@ html {
   margin: 5px;
   width: 100%;
 }
-
 #services p {
   font-size: 17px;
   font-weight: 500;
@@ -404,32 +341,25 @@ html {
   width: 100%;
   font-family: 'Mulish', sans-serif;
 }
-
 /* ABOUT */
-
 #about .container {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #E9E9E9;
 }
-
 #about .content {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-
 }
-
 #about .image-container {
   width: 60%;
 }
-
 #about .image-container img {
   width: 100%;
 }
-
 #about .content-container {
   display: flex;
   align-items: flex-start;
@@ -438,7 +368,6 @@ html {
   margin-left: 20px;
   width: 50%;
 }
-
 #about button {
   background-color: #ff6600;
   border: 1.5px solid #ff6600;
@@ -450,12 +379,10 @@ html {
   font-size: 17px;
   transition: all ease-in-out 0.5s;
 }
-
 #about button:hover {
   color: black;
   background-color: white;
 }
-
 #about h1 {
     position: relative; /* Essential for positioning the pseudo-element */
     padding: 20px;
@@ -464,7 +391,6 @@ html {
     margin: 5px;
     color: #313131;
 }
-
 #about h1::after {
   content: "";
   display: block;
@@ -477,7 +403,6 @@ html {
   left: 0.9;
   right: 0.9;
 }
-
 #about p {
     padding: 20px;
     font-weight: 500;
@@ -487,9 +412,7 @@ html {
     font-family: 'Mulish', sans-serif;
     width: 70%;
 }
-
 /* OFFERS/SERVICES */
-
 #offers .container {
   display: flex;
   justify-content: center;
@@ -498,7 +421,6 @@ html {
   width: 100%;
   margin: 50px;
 }
-
 #offers .content {
   display: flex;
   align-items: center;
@@ -506,7 +428,6 @@ html {
   flex-direction: column;
   margin-top: 90px;
 }
-
 #offers .cards-container {
   display: flex;
   justify-content: space-between;
@@ -515,7 +436,6 @@ html {
   width: 77%;
   margin: 50px;
 }
-
 #offers .card {
   position: relative;
   overflow: hidden;
@@ -523,11 +443,9 @@ html {
   height: 312px;
   margin: 5px;
 }
-
 #offers .card-content {
   position: relative;
 }
-
 #offers h1 {
   position: relative; /* Essential for positioning the pseudo-element */
   padding: 20px;
@@ -536,7 +454,6 @@ html {
   margin: 5px;
   color: #313131;
 }
-
 #offers h1::after {
 content: "";
 display: block;
@@ -549,14 +466,12 @@ bottom: 0; /* Aligns the pseudo-element to the bottom of the h1 */
 left: 0;
 right: 0;
 }
-
 #offers .card-content img {
   width: 100%;
   height: auto;
   display: block;
   transition: transform 0.5s;
 }
-
 #offers .layer {
   width: 100%;
   height: 100%;
@@ -575,22 +490,18 @@ right: 0;
   transition: all 0.5s;
   opacity: 0;
 }
-
 #offers .card:hover .layer {
   opacity: 0.9;
 }
-
 #offers h3 {
   color: #ff6600;
   font-size: 23px;
   font-weight: 800;
   transition: font-size 0.3s ease; /* Add transition effect */
 }
-
 #offers .card-content:hover h3 {
   font-size: 25px;
 }
-
 #offers .container {
   display: flex;
   justify-content: center;
@@ -598,7 +509,6 @@ right: 0;
   height: auto;
   width: 100%;
 }
-
 #offers .content {
   display: flex;
   align-items: center;
@@ -606,13 +516,11 @@ right: 0;
   flex-direction: column;
   margin-top: 90px;
 }
-
 #offers .cards-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 #offers button {
   background-color: #ff6600;
   border: 1.5px solid #ff6600;
@@ -624,15 +532,11 @@ right: 0;
   font-size: 17px;
   transition: all ease-in-out 0.5s;
 }
-
 #offers button:hover {
   color: black;
   background-color: white;
 }
-
 /* QUOTE */
-
-
 #quote .container {
   flex-direction: row;
   position: relative;
@@ -640,7 +544,6 @@ right: 0;
   width: 100%;
   background: rgba(0, 0, 0, 0.5); /* Add a background overlay */
 }
-
 #quote .content {
   display: flex;
   align-items: center;
@@ -650,16 +553,12 @@ right: 0;
   height: 100%;
   z-index: 5;
 }
-
-
 #quote img {
   position: absolute;
   width: 100%; 
   height: 100%;
   z-index: -2;
 }
-
-
 /* ----------------- FORM IN THE QUOTE AREA -------------- */
 .form {
   display: flex;
@@ -667,7 +566,6 @@ right: 0;
   justify-content: flex-end;
   padding: 100px;
 }
-
 .form form {
   display: flex;
   flex-direction: column;
@@ -678,7 +576,6 @@ right: 0;
   background: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Simple box shadow */
 }
-
 .form form input {
   margin: 20px;
   border: none;
@@ -687,7 +584,6 @@ right: 0;
   font-size: 17px;
   outline: none;
 }
-
 .form form button {
   background-color: #ff6600;
   border: 1.5px solid #ff6600;
@@ -699,12 +595,10 @@ right: 0;
   transition: all ease-in-out 0.5s;
   width: 70%;
 }
-
 .form form button:hover {
   color: black;
   background-color: white;
 }
-
 .form form h1 {
   position: relative; /* Essential for positioning the pseudo-element */
   padding: 20px;
@@ -714,9 +608,7 @@ right: 0;
   color: #313131;
   font-family: 'Poppins', sans-serif;
 }
-
 /* SLIDER REIEWS IN THE QUOTE AREA */
-
 #quote .reviews {
   display: flex;
   align-items: center;
@@ -724,7 +616,6 @@ right: 0;
   flex-direction: column;
   width: 50%;
 }
-
 .wrapper {
   position: relative;
   width: 80%;
@@ -736,12 +627,10 @@ right: 0;
   transition: transform 0.5s ease-in-out; /* Add transition for container */
   z-index: 3;
 }
-
 .reviews i {
   font-size: 35px;
   color: #ffffff;
 }
-
 .testimonial-container {
   display: flex;
   align-items: center;
@@ -754,7 +643,6 @@ right: 0;
   padding: 1.8em 1.2em;
   transition: bottom 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Add transitions */
 }
-
 .wrapper button {
   font-size: 1.8em;
   height: 2.2em;
@@ -771,25 +659,20 @@ right: 0;
   border-radius: 50%;
   transition: all ease-in-out 0.5s, display 0s 0.5s; /* Delaying display transition */
 }
-
 button#next {
   right: -2.5em;
 }
-
 button#prev {
   left: -2.5em;
 }
-
 .wrapper:hover button#prev {
   transform: translateX(1.2em);
   opacity: 1;
 }
-
 .wrapper:hover button#next {
   transform: translateX(-1.2em);
   opacity: 1;
 }
-
 .testimonial-container p {
   color: #ffffff;
   text-align: center;
@@ -798,25 +681,21 @@ button#prev {
   font-weight: 500;
   letter-spacing: 0.05em;
 }
-
 .slide-up {
   opacity: 1;
   animation: moveup 0.9s linear forwards;
 }
-
 .testimonial-container h3 {
   color: #ffffff;
   font-size: 1.3em;
   text-align: center;
   font-weight: 800;
 }
-
 @media screen and (max-width: 650px) {
   .wrapper {
     font-size: 14px;
   }
 }
-
 @keyframes moveup {
   0% {
     margin-top: 20%;
@@ -827,19 +706,16 @@ button#prev {
     opacity: 1;
   }
 }
-
 /* Footer */
 footer {
   background-color: #333333;
   padding: 50px;
 }
-
 footer .container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 footer button {
   display: none;
   color: #ffffff;
@@ -852,13 +728,10 @@ footer button {
   width: 250px;
   transition: all ease-in-out 0.5s;
 }
-
 footer button:hover {
   color: #000;
   background-color: #dedede;
 }
-
-
 footer .container .content {
   display: flex;
   align-items: center;
@@ -866,7 +739,6 @@ footer .container .content {
   flex-direction: row;
   width: 90%;
 }
-
 footer .logo-container {
   display: flex;
   align-items: center;
@@ -874,81 +746,64 @@ footer .logo-container {
   flex-direction: column;
   margin: 20px;
 }
-
 footer .social-icons {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 20px;
 }
-
 footer .social-icons i {
   font-size: 18px;
   color: #FF6600;
   margin: 10px;
 }
-
 footer .info-box {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-
 footer .info-box i {
   font-size: 24px;
   color: #FF6600;
   margin: 10px;
 }
-
 footer .info-box h3 {
   font-weight: 800;
   color: #ffffff;
   font-size: 18px;
   margin: 5px;
 }
-
 footer .info-box p {
   color: #ffffff;
   font-size: 18px;
   font-weight: 500;
   margin: 5px;
 }
-
-
 /* responsivness area */
-
 @media (max-width: 860px) {
-
   body.disabled {
     overflow-y: auto; /* Change overflow to auto to allow vertical scrolling */
     overflow-x: hidden; /* Hide horizontal scrollbar */
   }
-
   .navbar {
     padding: 25px 30px 25px 20px;
     width: 100%;
   }
-
   .navbar .logo {
     margin: 0;
   }
-
   .navbar button {
     display: block;
     width: 80%;
   }
-
   .contact-row {
     display: none;
   }
-
   /* HEADER RESPONSIVNESS */
-
   #header .image-container {
     display: none;
   }
-
   #header .container .content{
     margin: 0;
     width: 100%;
@@ -957,121 +812,93 @@ footer .info-box p {
     justify-content: center;
     flex-direction: column;
   }
-
   #header .container .content h1 {
     font-size: 30px;
   }
-
-
   /* SERVICES RESPONSIVNESS */
-
   #services .container .content {
     display: flex;
     flex-direction: column;
     text-align: center;
     width: 100%;
   }
-
   #services h1 {
     width: 100%;
   }
-
   #services .content .advantage-container {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-
   #services .content .advantage-container .card {
     width: 100%;
   }
-
   /* ABOUT RESPONSIVNESS */
-  
   #about .container .content {
     flex-direction: column;
   }
-
   #about .image-container {
     width: 100%;
   }
-
   #about .container {
     width: 100%;
     height: auto;
   }
-
   #about .content-container {
     align-items: center;
     width: 100%;
     margin: 0;
     height: auto;
   }
-
   #about  .content-container p {
     width: 90%;
   }
-
   #about button {
     margin-bottom: 40px;
   }
-
   #about h1::after {
     bottom: 0; /* Aligns the pseudo-element to the bottom of the h1 */
     left: 0;
     right: 0;
   }
-
   /* offers responsivness */
-
   #offers .container {
     margin: 0;
     margin-bottom: 30px;
     height: auto;
-    
   }
-
   #offers button {
     margin: 40px;
   }
-
   #offers .container .content {
     margin: 0;
   }
-
   #offers .container .content .cards-container {
     margin: 0;
     align-items: center;
     justify-content: center;
     width: 100%;
   }
-
   #offers .container .content .cards-container .card {
     width: 90%;
     height: auto;
     margin: 20px 0;
   }
-
   #offers img {
     width: 90%;
   }
-
   #offers .layer {
     width: 100%;
     height: 20%;
     opacity: 1;
   }
-
   #offers h1 {
     margin-bottom: 20px;
   }
-  
   /* QUOTE RESPONSIVNESS */
-
   #quote .container  {
     width: 100%;
   }
-
   #quote .container .content {
     display: flex;
     flex-direction: column;
@@ -1079,36 +906,29 @@ footer .info-box p {
     justify-content: center;
     width: 100%;
   }
-
   #quote .reviews {
     width: 100%;
     margin-top: 40px;
   }
-
   #quote .form {
     padding: 0;
     width: 86%;
     margin: 40px;
   }
-
   #quote .testimonial-container {
     padding: 0;
   }
-
   button#next {
     right: -1.4em;
     opacity: 1;
   }
-  
   button#prev {
     left: -1.4em;
     opacity: 1;
   }
-
   .wrapper:hover button#prev {
     transform: translateX(-0em);
   }
-
   .wrapper:hover button#next {
     transform: translateX(-0em);
   }
@@ -1116,41 +936,30 @@ footer .info-box p {
     padding: 10px;
     margin: 30px 0;
   }
-
   #quote .form h1 {
     font-size: 25px;
     margin: 20px;
   }
-
   #quote .form form {
     height: 90%;
   }
-
-
-
-
   /* FOOTERS RESPONSIVNESS */
   footer {
     padding: 25px;
   }
-
   footer .container .content {
     flex-direction: column;
     width: 100%;
   }
-
   footer img {
     margin: 15px;
   }
-
   footer button {
     display: block;
   }
-
   footer .container .content .logo-container .social-icons i {
     font-size: 30px;
   }
-
   footer .container .content .info-box {
     margin: 20px;
   }
