@@ -11,7 +11,6 @@
   background-image: url("images/aboutUs.jpg");
   background-attachment: fixed;
 }
-
 #aboutHeader .overlay {
   display: flex;
   align-items: center;
@@ -22,7 +21,6 @@
   height: 500px;
   background: rgba(0, 0, 0, 0.4); /* Add a background overlay */
 }
-
 #aboutHeader p {
   font-size: 25px;
   font-weight: 800;
@@ -30,14 +28,11 @@
   color: white;
   width: 50%;
 }
-
 /* ABOUT - ABOUT US */
-
 #aboutAboutus .container {
   width: 100%;
   height: auto;
 }
-
 #aboutAboutus .content {
   display: flex;
   align-items: center;
@@ -45,7 +40,6 @@
   flex-direction: row;
   padding: 50px;
 }
-
 #aboutAboutus .content-container {
   display: flex;
   align-items: flex-start;
@@ -55,14 +49,12 @@
   margin: 30px;
   padding: 40px;
 }
-
 #aboutAboutus .content-container p {
   color: #333333;
   font-family: "Poppins", sans-serif;
   font-size: 17px;
   margin: 20px;
 }
-
 #aboutAboutus .content-container h1 {
   color: #333333;
   font-size: 35px;
@@ -70,7 +62,6 @@
   font-family: "Poppins", sans-serif;
   margin: 20px;
 }
-
 #aboutAboutus .content-container h1::after {
   content: "";
   display: block;
@@ -83,7 +74,6 @@
   left: 0.9;
   right: 0.9;
 }
-
 #aboutAboutus button {
   background-color: #ff6600;
   border: none;
@@ -95,24 +85,19 @@
   margin: 20px;
   transition: all ease-in-out 0.5s;
 }
-
 #aboutAboutus button:hover {
   background-color: white;
   border: 1px solid #ff6600;
   color: #333333;
 }
-
 #aboutAboutus .image-container {
   width: 40%;
   height: auto;
 }
-
 #aboutAboutus .image-container img {
   width: 90%;
 }
-
 /* FAQs AREA  */
-
 #aboutFaqs .container {
   display: flex;
   align-items: center;
@@ -121,14 +106,12 @@
   height: auto;
   padding: 50px;
 }
-
 #aboutFaqs .container .content {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-
 #aboutFaqs .container .content .content-container {
   display: flex;
   justify-content: space-evenly;
@@ -137,14 +120,12 @@
   flex-wrap: wrap;
   padding: 40px;
 }
-
 #aboutFaqs .container .content h1 {
   font-size: 35px;
   font-weight: 700;
   color: #333333;
   font-family: "Poppins", sans-serif;
 }
-
 #aboutFaqs .card {
   display: flex;
   align-items: flex-start;
@@ -154,7 +135,6 @@
   padding: 20px;
   position: relative; /* Position the card relative */
 }
-
 #aboutFaqs .card::after {
   content: "";
   width: 10%;
@@ -165,7 +145,6 @@
   left: 0; /* Aligns the pseudo-element to the left of the card */
   margin: 15px 40px;
 }
-
 #aboutFaqs .card h3 {
   font-size: 25px;
   color: #333333;
@@ -173,7 +152,6 @@
   font-family: 800;
   margin: 5px 20px;
 }
-
 #aboutFaqs .card p {
   font-size: 17px;
   color: #000000;
@@ -181,48 +159,39 @@
   font-weight: 300;
   margin: 5px 20px;
 }
-
 /* responsivness css */
-
 @media (max-width: 868px) {
   /* HEADER RESPONSIVNESS */
-
   #aboutHeader .container .content .image-container {
     width: 100%;
     height: 400px;
   }
-
   #aboutHeader .container .content .image-container .overlay {
     width: 100%;
     height: 400px;
   }
-
   #aboutHeader .container .content .image-container .overlay p {
     width: 90%;
     font-size: 20px;
     margin-top: 40px;
   }
-
   /* ABOUT RESPONSIVNESS AREA  */
   #aboutAboutus .container .content {
     flex-direction: column;
     padding: 0;
   }
-
   #aboutAboutus .container .content .content-container {
     align-items: center;
     padding: 0;
     margin: 15px;
     width: 80%;
   }
-
   #aboutAboutus .container .content .content-container h1::after {
     margin: 170px auto; 
     width: 25%;
     left: 0;
     right: 0;
   }
-
   #aboutAboutus .container .content .image-container {
     display: flex;
     align-items: center;
@@ -230,30 +199,21 @@
     width: 90%;
     margin: 10px;
   }
-
-
   /* FAQS RESPONSIVNESS AREA */
-
   #aboutFaqs .container {
     padding: 0;
   }
-
   #aboutFaqs .container .content {
     margin-top: 60px;
   }
-
   #aboutFaqs .container .content .content-container {
     margin: 0;
     padding: 0;
     flex-direction: column;
     width: 100%;
   }
-
   #aboutFaqs .container .content .content-container .card {
     width: 90%;
     margin: 30px;
   }
-
-
-
 }
