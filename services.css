@@ -1,10 +1,8 @@
 /* SERVICES HEADER */
-
 #serviceHeader .container {
   width: 100%;
   height: auto;
 }
-
 #serviceHeader .image-container {
   display: flex;
   align-items: center;
@@ -17,7 +15,6 @@
   background-image: url("images/keys.png");
   background-attachment: fixed;
 }
-
 #serviceHeader .overlay {
   display: flex;
   align-items: center;
@@ -28,7 +25,6 @@
   height: 500px;
   background: rgba(0, 0, 0, 0.4); /* Add a background overlay */
 }
-
 #serviceHeader h1 {
   color: #ffffff;
   font-weight: 800;
@@ -45,7 +41,6 @@
   width: 50%;
   margin-top: 120px;
 }
-
 #serviceHeader h1::after {
   content: "";
   margin: -5px auto; /* Centers the pseudo-element */
@@ -57,7 +52,6 @@
   left: 0;
   right: 0;
 }
-
 /* SERVICES DEALS */
 #serviceDeals .container {
   display: flex;
@@ -65,10 +59,8 @@
   justify-content: center;
   width: 100%;
   height: auto;
-  padding: 80px;
-  
+  padding: 80px; 
 }
-
 #serviceDeals .container .content {
   display: flex;
   align-items: center;
@@ -77,13 +69,11 @@
   flex-wrap: wrap;
   width: 95%;
 }
-
 #serviceDeals .container .content .card {
   text-align: center;
   width: 30%;
   margin: 15px;
 }
-
 #serviceDeals .container .content .card h1 {
   font-size: 25px;
   font-weight: 800;
@@ -91,7 +81,6 @@
   color: #333333;
   padding: 5px;
 }
-
 #serviceDeals .container .content .card p {
   font-size: 17px;
   font-family: 'Poppins', sans-serif;
@@ -99,45 +88,32 @@
   margin: 5px;
   width: 100%;
 }
-
-
 @media (max-width: 868px) {
-
   /* HEADER */
-
   #serviceHeader h1 {
     margin-bottom: 190px;
     width: 90%;
   }
-
   #serviceHeader p {
     width: 80%;
   }
-
   /* DEALS */
-
   #serviceDeals .container {
     width: 100%;
     height: auto;
     padding: 0;
-    
   }
-
   #serviceDeals .container .content {
     flex-direction: column;
     width: 100%;
   }
-
   #serviceDeals .container .content .card {
     text-align: center;
     width: 60%;
     margin: 50px;
   }
-
   #serviceDeals h1 {
     width: 100%;
     padding: 0;
   }
-
-
 }
