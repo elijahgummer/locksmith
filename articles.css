@@ -1,5 +1,4 @@
 /* Articles Header */
-
 #articlesHeader .image-container {
   display: flex;
   align-items: center;
@@ -12,7 +11,6 @@
   background-image: url("images/keysTools.png");
   background-attachment: fixed;
 }
-
 #articlesHeader .overlay {
   display: flex;
   align-items: center;
@@ -24,7 +22,6 @@
   height: 500px;
   background: rgba(0, 0, 0, 0.1); /* Add a background overlay */
 }
-
 #articlesHeader h1 {
   font-size: 25px;
   font-weight: 800;
@@ -33,24 +30,20 @@
   width: 50%;
   margin: 30px;
 }
-
 #articlesHeader p {
     font-size: 18px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     color: white;
     width: 50%;
-  }
-
+}
 /* ARTICLES FEATURES */
-
 #articlesFeatures .container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-
 #articlesFeatures .content {
   display: flex;
   align-items: center;
@@ -58,7 +51,6 @@
   flex-direction: column;
   margin: 100px;
 }
-
 #articlesFeatures .card {
   display: flex;
   align-items: center;
@@ -68,51 +60,42 @@
   background-color: #F5F5F5;
   margin: 40px 0px;
 }
-
 #articlesFeatures .card .image-container {
   width: 50%; /* Adjust width as needed */
   height: auto; /* Adjust height as needed */
   overflow: hidden; /* Hide overflow */
 }
-
 #articlesFeatures .card .image-container img {
   width: 100%; /* Ensure image fills container */
   height: auto; /* Maintain aspect ratio */
   transition: transform ease-in-out 0.5s; /* Transition for zoom effect */
 }
-
 #articlesFeatures .card .image-container:hover img {
   transform: scale(1.1); /* Zoom in effect on hover */
 }
-
 #articlesFeatures .card .content-container {
   width: 100%;
 }
-
 #articlesFeatures .card .content-container h1 {
   color: #333333;
   font-size: 30px;
   font-weight: 700;
   margin: 30px;
 }
-
 #articlesFeatures .card .content-container p {
   color: #747474;
   font-size: 17px;
   font-weight: 400;
   margin: 30px;
 }
-
 #articlesFeatures .card .content-container p a {
   color: #747474;
   font-size: 20px;
   text-decoration: none;
 }
-
 #articlesFeatures .card .content-container p a:hover {
   text-decoration: underline;
 }
-
 #articlesFeatures button {
   background-color: #ff6600;
   border: 1.5px solid #ff6600;
@@ -124,19 +107,15 @@
   font-size: 17px;
   transition: all ease-in-out 0.5s;
 }
-
 #articlesFeatures button:hover {
   color: black;
   background-color: white;
 }
-
 /* REPONSIVNESS */
-
 @media (max-width: 860px) {
   #articlesHeader .overlay p {
     width: 90%;
   }
-
   #articlesFeatures .content {
     width: 90%;
     margin: 0; 
@@ -146,7 +125,4 @@
     flex-direction: column;
     text-align: center;
   }
-
-
-
 }
