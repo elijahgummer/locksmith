@@ -8,16 +8,16 @@ The Locksmith Website Project is a demonstration of a fictional locksmith servic
 
 ---
 
-👉 Live Demo: [Live Demo](link-to-demo-if-available)
+👉 Live Demo: [Live Demo](https://elijahgummer.github.io/MoneyMagnet/)
 ---
 
 ## About the Project ℹ️
-The Locksmith Website Project is designed to simulate a real-world locksmith services website. It includes features such as service showcase and contact information for demonstration purposes only.
+The Money Magnet Website Project is designed to simulate a real-world budget and expense tracker website. It includes features such as budget planning tools, expense tracking, and financial goal setting for demonstration purposes only.
 
 ---
 
 Credits:
-Design inspired by duda
+Designed and Coded by me 
 
 ---
 
@@ -25,6 +25,8 @@ Design inspired by duda
 - HTML
 - CSS
 - JavaScript
+- PHP
+- SQL
 ---
 
 ## Home Page 🏡 📸
